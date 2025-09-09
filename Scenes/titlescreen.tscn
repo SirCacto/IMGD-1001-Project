@@ -1,0 +1,55 @@
+[gd_scene load_steps=2 format=3 uid="uid://d101g4xpsack5"]
+
+[ext_resource type="Script" uid="uid://dlunmcl0johu8" path="res://Scenes/titlescreen.gd" id="1_3lblr"]
+
+[node name="TitleScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 110.0
+offset_top = -53.0
+offset_right = 110.0
+offset_bottom = -53.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_3lblr")
+
+[node name="StartButton" type="Button" parent="."]
+layout_mode = 2
+offset_left = -238.0
+offset_top = 160.0
+offset_right = -104.0
+offset_bottom = 191.0
+text = "Start Game"
+
+[node name="VersionButton" type="Button" parent="."]
+layout_mode = 2
+offset_left = 327.0
+offset_top = -101.0
+offset_right = 444.0
+offset_bottom = -70.0
+text = "Version Notes"
+
+[node name="CreditsButton" type="Button" parent="."]
+layout_mode = 2
+offset_left = -460.0
+offset_top = -254.0
+offset_right = -343.0
+offset_bottom = -223.0
+text = "Credits"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = -113.0
+offset_top = -110.0
+offset_right = -27.0
+offset_bottom = -87.0
+theme_override_font_sizes/font_size = 50
+text = "Day Drifter"
+
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="VersionButton" to="." method="_on_version_button_pressed"]
+[connection signal="pressed" from="CreditsButton" to="." method="_on_credits_button_pressed"]

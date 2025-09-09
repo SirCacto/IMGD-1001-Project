@@ -1,0 +1,5 @@
+res://Scenes/titlescreen.tscn
+res://Scenes/start_button.gd
+res://Scenes/credits_button.gd
+res://Scenes/titlescreen.gd
+res://Scenes/Main Scenes/main.tscn
