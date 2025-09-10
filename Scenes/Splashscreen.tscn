@@ -1,0 +1,55 @@
+[gd_scene load_steps=7 format=3 uid="uid://isl8fa3ecqhm"]
+
+[ext_resource type="Script" uid="uid://d36logajv3ori" path="res://Scenes/splashscreen.gd" id="1_3bv72"]
+[ext_resource type="Texture2D" uid="uid://c1u52r0cg33hy" path="res://Images/download.jpg" id="1_ftcwr"]
+[ext_resource type="Texture2D" uid="uid://l1013nyyyji2" path="res://Images/WPI_Inst_Second_FulClr.png" id="2_3bv72"]
+
+[sub_resource type="Animation" id="Animation_30vxa"]
+length = 0.001
+step = 0.1
+
+[sub_resource type="Animation" id="Animation_j0moa"]
+resource_name = "fade-out"
+step = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D/LOGO:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5, 1),
+"transitions": PackedFloat32Array(0.5, 0.5, 2),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_epyft"]
+_data = {
+&"RESET": SubResource("Animation_30vxa"),
+&"fade-out": SubResource("Animation_j0moa")
+}
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_3bv72")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(574.25, 323.25)
+scale = Vector2(4.20182, 3.50546)
+texture = ExtResource("1_ftcwr")
+
+[node name="LOGO" type="Node2D" parent="Sprite2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="Sprite2D/LOGO"]
+position = Vector2(-0.297546, 0.213959)
+scale = Vector2(0.180035, 0.180035)
+texture = ExtResource("2_3bv72")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_epyft")
+}
+autoplay = "fade-out"
+speed_scale = 0.5
+
+[connection signal="animation_finished" from="AnimationPlayer" to="." method="_on_animation_player_animation_finished"]

@@ -11,6 +11,12 @@ config_version=5
 [application]
 
 config/name="IMGD 1001 Project"
-run/main_scene="uid://d101g4xpsack5"
+run/main_scene="uid://isl8fa3ecqhm"
 config/features=PackedStringArray("4.4", "Forward Plus")
-config/icon="res://icon.svg"
+run/flush_stdout_on_print.debug=false
+boot_splash/show_image=false
+boot_splash/image="uid://l1013nyyyji2"
+config/icon="res://Images/icon.svg"
+boot_splash/minimum_display_time=1500
+run/show_image=true
+run/minimum_display_time=3000
