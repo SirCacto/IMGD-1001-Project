@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://d101g4xpsack5"]
+[gd_scene load_steps=3 format=3 uid="uid://d101g4xpsack5"]
 
 [ext_resource type="Script" uid="uid://dlunmcl0johu8" path="res://Scenes/titlescreen.gd" id="1_3lblr"]
+[ext_resource type="Texture2D" uid="uid://bgo37d11u8fna" path="res://Images/Day Drifter Title Screen.png" id="2_u4xby"]
 
 [node name="TitleScreen" type="Control"]
 layout_mode = 3
@@ -16,11 +17,12 @@ grow_vertical = 2
 script = ExtResource("1_3lblr")
 
 [node name="StartButton" type="Button" parent="."]
+z_index = 5
 layout_mode = 2
-offset_left = -238.0
-offset_top = 160.0
-offset_right = -104.0
-offset_bottom = 191.0
+offset_left = -197.0
+offset_top = 197.0
+offset_right = -63.0
+offset_bottom = 228.0
 text = "Start Game"
 
 [node name="VersionButton" type="Button" parent="."]
@@ -32,6 +34,7 @@ offset_bottom = -70.0
 text = "Version Notes"
 
 [node name="CreditsButton" type="Button" parent="."]
+z_index = 5
 layout_mode = 2
 offset_left = -460.0
 offset_top = -254.0
@@ -42,13 +45,18 @@ text = "Credits"
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="Label" type="Label" parent="."]
+z_index = 5
 layout_mode = 0
-offset_left = -113.0
-offset_top = -110.0
-offset_right = -27.0
-offset_bottom = -87.0
+offset_left = 225.0
+offset_top = -114.0
+offset_right = 491.0
+offset_bottom = -45.0
 theme_override_font_sizes/font_size = 50
-text = "Day Drifter"
+
+[node name="DayDrifterTitleScreen" type="Sprite2D" parent="."]
+position = Vector2(16, 13)
+scale = Vector2(0.0858883, 0.080345)
+texture = ExtResource("2_u4xby")
 
 [connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
 [connection signal="pressed" from="VersionButton" to="." method="_on_version_button_pressed"]

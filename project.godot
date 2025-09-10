@@ -20,3 +20,7 @@ config/icon="res://Images/icon.svg"
 boot_splash/minimum_display_time=1500
 run/show_image=true
 run/minimum_display_time=3000
+
+[display]
+
+window/stretch/mode="viewport"
