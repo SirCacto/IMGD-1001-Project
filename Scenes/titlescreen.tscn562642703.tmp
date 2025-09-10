@@ -1,0 +1,131 @@
+[gd_scene load_steps=8 format=3 uid="uid://d101g4xpsack5"]
+
+[ext_resource type="Script" uid="uid://dlunmcl0johu8" path="res://Scenes/titlescreen.gd" id="1_3lblr"]
+[ext_resource type="Texture2D" uid="uid://bgo37d11u8fna" path="res://Images/Day Drifter Title Screen.png" id="2_u4xby"]
+[ext_resource type="PackedScene" uid="uid://du0kxoxpojq0p" path="res://Scenes/Credits.tscn" id="3_h87bp"]
+
+[sub_resource type="Animation" id="Animation_wshof"]
+resource_name = "Credits In"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.0666667),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [false, true]
+}
+
+[sub_resource type="Animation" id="Animation_qf0g6"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_up5sg"]
+resource_name = "Credits Out"
+length = 0.1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_w7bgp"]
+_data = {
+&"Credits In": SubResource("Animation_wshof"),
+&"Credits Out": SubResource("Animation_up5sg"),
+&"RESET": SubResource("Animation_qf0g6")
+}
+
+[node name="TitleScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 110.0
+offset_top = -53.0
+offset_right = 110.0
+offset_bottom = -53.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_3lblr")
+
+[node name="StartButton" type="Button" parent="."]
+z_index = 5
+layout_mode = 2
+offset_left = -197.0
+offset_top = 197.0
+offset_right = -63.0
+offset_bottom = 228.0
+text = "Start Game"
+
+[node name="VersionButton" type="Button" parent="."]
+layout_mode = 2
+offset_left = 327.0
+offset_top = -101.0
+offset_right = 444.0
+offset_bottom = -70.0
+text = "Version Notes"
+
+[node name="CreditsButton" type="Button" parent="."]
+z_index = 5
+layout_mode = 2
+offset_left = -460.0
+offset_top = -254.0
+offset_right = -343.0
+offset_bottom = -223.0
+text = "Credits"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Label" type="Label" parent="."]
+z_index = 5
+layout_mode = 0
+offset_left = 225.0
+offset_top = -114.0
+offset_right = 491.0
+offset_bottom = -45.0
+theme_override_font_sizes/font_size = 50
+
+[node name="DayDrifterTitleScreen" type="Sprite2D" parent="."]
+position = Vector2(16, 13)
+scale = Vector2(0.0858883, 0.080345)
+texture = ExtResource("2_u4xby")
+
+[node name="ScrollContainer" parent="." instance=ExtResource("3_h87bp")]
+visible = false
+layout_mode = 1
+offset_left = -206.0
+offset_top = -251.0
+offset_right = -958.0
+offset_bottom = -1253.18
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="ScrollContainer"]
+libraries = {
+&"": SubResource("AnimationLibrary_w7bgp")
+}
+
+[connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
+[connection signal="pressed" from="VersionButton" to="." method="_on_version_button_pressed"]
+[connection signal="pressed" from="CreditsButton" to="." method="_on_credits_button_pressed"]

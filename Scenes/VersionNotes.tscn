@@ -1,0 +1,31 @@
+[gd_scene load_steps=2 format=3 uid="uid://dbmms064g7ry6"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i4sal"]
+bg_color = Color(0, 0, 0, 1)
+
+[node name="VersionNotes" type="ScrollContainer"]
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 2.312
+offset_left = 376.0
+offset_top = 72.0
+offset_right = -435.0
+offset_bottom = -982.176
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 2
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_i4sal")
+text = "
+              Version Notes:
+
+  v0.2
+  Added:
+  Splach Screen
+  Title Screen
+  Credits
+  Version Notes
+
+  More updates coming soon!  "

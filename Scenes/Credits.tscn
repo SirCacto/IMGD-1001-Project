@@ -1,0 +1,63 @@
+[gd_scene load_steps=3 format=3 uid="uid://du0kxoxpojq0p"]
+
+[sub_resource type="GDScript" id="GDScript_msqbs"]
+script/source = "extends ScrollContainer
+
+
+
+func _on_credits_button_pressed() -> void:
+	print(\"Close\")
+"
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i4sal"]
+bg_color = Color(0, 0, 0, 1)
+
+[node name="ScrollContainer" type="ScrollContainer"]
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 2.312
+offset_left = 376.0
+offset_top = 72.0
+offset_right = -156.0
+offset_bottom = -930.176
+horizontal_scroll_mode = 0
+vertical_scroll_mode = 2
+script = SubResource("GDScript_msqbs")
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 2
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxFlat_i4sal")
+text = "
+Credits:
+
+  Kyle Mathieu          John Brassil
+David Baggesen      Liv Sevinsky
+
+
+  Music Credits:  
+
+  \"Morning\" Kevin MacLeod (incompetech.com)  
+  Licensed under Creative Commons: By
+  Attribution 4.0 License  
+  http://creativecommons.org/licenses/by/4.0/  
+
+
+  \"Still Pickin\" Kevin MacLeod (incompetech.com)  
+  Licensed under Creative Commons: By
+  Attribution 4.0 License  
+  http://creativecommons.org/licenses/by/4.0/  
+
+
+  \"Space 1990-B\" Kevin MacLeod (incompetech.com)  
+  Licensed under Creative Commons: By
+  Attribution 4.0 License  
+  http://creativecommons.org/licenses/by/4.0/  
+
+
+  \"Midnight Tale\" Kevin MacLeod (incompetech.com)  
+  Licensed under Creative Commons: By
+  Attribution 4.0 License  
+  http://creativecommons.org/licenses/by/4.0/  
+"
+horizontal_alignment = 1

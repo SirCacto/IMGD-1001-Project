@@ -1,3 +1,5 @@
+Node
+Button
 AnimationPlayer
 Sprite2D
 Node2D
@@ -7,7 +9,6 @@ CenterContainer
 ColorRect
 Label
 Camera2D
-Button
 VBoxContainer
 MarginContainer
 TextureButton
