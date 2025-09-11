@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 [gd_scene load_steps=12 format=3 uid="uid://d101g4xpsack5"]
 
 [ext_resource type="Script" uid="uid://dlunmcl0johu8" path="res://Scenes/titlescreen.gd" id="1_3lblr"]
@@ -608,6 +609,19 @@ _data = {
 &"RESET": SubResource("Animation_qf0g6"),
 &"VN In": SubResource("Animation_up5sg"),
 &"VN Out": SubResource("Animation_j0nra")
+=======
+[gd_scene load_steps=5 format=3 uid="uid://d101g4xpsack5"]
+
+[ext_resource type="Script" uid="uid://dlunmcl0johu8" path="res://Scenes/titlescreen.gd" id="1_3lblr"]
+[ext_resource type="PackedScene" path="res://Scenes/Credits.tscn" id="2_u4xby"]
+
+[sub_resource type="Animation" id="Animation_h87bp"]
+resource_name = "Credits In"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_wshof"]
+_data = {
+&"Credits In": SubResource("Animation_h87bp")
+>>>>>>> Stashed changes
 }
 
 [node name="TitleScreen" type="Control"]
@@ -716,6 +730,18 @@ theme_override_styles/pressed = ExtResource("3_wshof")
 theme_override_styles/normal = ExtResource("3_wshof")
 disabled = true
 text = " X "
+
+[node name="ScrollContainer" parent="." instance=ExtResource("2_u4xby")]
+layout_mode = 1
+offset_left = -214.0
+offset_top = -251.0
+offset_right = -966.0
+offset_bottom = -1253.18
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="ScrollContainer"]
+libraries = {
+&"": SubResource("AnimationLibrary_wshof")
+}
 
 [connection signal="pressed" from="StartButton" to="." method="_on_start_button_pressed"]
 [connection signal="pressed" from="VersionButton" to="." method="_on_version_button_pressed"]

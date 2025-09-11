@@ -1,20 +1,23 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1757521684
+::res://::1757551741
 ::res://Images/::1757521059
 Day Drifter Title Screen.png::CompressedTexture2D/CompressedTexture2D::2838212454224866134::1757521037::1757521059::1::::<><><>0<>0<>04efbd7f4669ea09ba1950bd92125bfc<>res://.godot/imported/Day Drifter Title Screen.png-d34bc9aefc2067cc4c2e3b6a19e8dcc6.ctex::
 download.jpg::CompressedTexture2D/CompressedTexture2D::6640909514891750582::1757519570::1757521050::1::::<><><>0<>0<>30b7eb6cac7d265d9278d4623c9919bc<>res://.godot/imported/download.jpg-41e95e8835b2ba38c96b5420769935b1.ctex::
 icon.svg::CompressedTexture2D/CompressedTexture2D::3559186936603486300::1757519570::1757521050::1::::<><><>0<>0<>be09c37e75ceca45bf73df36f924f287<>res://.godot/imported/icon.svg-b7ee14c4fc7622c16acfaa49648fa144.ctex::
 WPI_Inst_Second_FulClr.png::CompressedTexture2D/CompressedTexture2D::827316948944336975::1757519570::1757521050::1::::<><><>0<>0<>aacf90aebbb5a643a58261a584438df1<>res://.godot/imported/WPI_Inst_Second_FulClr.png-994ac9a8a45127931b5ee402fb602d91.ctex::
-::res://Music-SFX/::1757521050
+::res://Music-SFX/::1757537844
+Credits.tscn::PackedScene/PackedScene::2271199241209806295::1757537844::0::1::::<><><>0<>0<><>::
 Midnight Tale.mp3::AudioStreamMP3/AudioStreamMP3::190889839362646247::1757519570::1757521050::1::::<><><>0<>0<>535266c5bcefcfb4c3ee591c1f21afdb<>res://.godot/imported/Midnight Tale.mp3-2de7d8c34206624875a2d58051a42a61.mp3str::
 Morning(titlescreen).mp3::AudioStreamMP3/AudioStreamMP3::2058308244804045056::1757519570::1757521050::1::::<><><>0<>0<>f6899caf899d6cb41b597b53616be9c1<>res://.godot/imported/Morning(titlescreen).mp3-6e1315abdd7704f32edde3f3ace590ff.mp3str::
 Space 1990-B.mp3::AudioStreamMP3/AudioStreamMP3::3790666579797186377::1757519570::1757521050::1::::<><><>0<>0<>f4a9e66be9a31e7c173a61a20aeefee8<>res://.godot/imported/Space 1990-B.mp3-6798886d1e8c48dda2386e394bbd285f.mp3str::
 Still Pickin(western).mp3::AudioStreamMP3/AudioStreamMP3::5114371573981003950::1757519570::1757521050::1::::<><><>0<>0<>08d3984593264fdc8e8e365745d16145<>res://.godot/imported/Still Pickin(western).mp3-b7e36b1e5ae8c3df7d7935efef4ffccb.mp3str::
-::res://Scenes/::1757521616
-Credits.tscn::PackedScene::8615297382436939241::1757521595::0::1::::<><><>0<>0<><>::
+::res://Scenes/::1757537844
+Credits.tscn::PackedScene/PackedScene::-1::1757537844::0::1::::<><><>0<>0<><>::
+Red.tres::StyleBoxFlat/StyleBoxFlat::7675578926656157729::1757523054::0::1::::<><><>0<>0<><>::
 splashscreen.gd::GDScript/GDScript::9189238586933362642::1757519570::0::1::::<>Node2D<><>0<>0<><>::
-Splashscreen.tscn::PackedScene::599396630691013002::1757521595::0::1::::<><><>0<>0<><>::uid://d36logajv3ori::::res://Scenes/splashscreen.gd<>uid://c1u52r0cg33hy::::res://Images/download.jpg<>uid://l1013nyyyji2::::res://Images/WPI_Inst_Second_FulClr.png
-titlescreen.gd::GDScript::7973437759799698245::1757521611::0::1::::<>Control<><>0<>0<><>::
-titlescreen.tscn::PackedScene::9037372345508240826::1757521616::0::1::::<><><>0<>0<><>::uid://dlunmcl0johu8::::res://Scenes/titlescreen.gd<>uid://bgo37d11u8fna::::res://Images/Day Drifter Title Screen.png<>uid://du0kxoxpojq0p::::res://Scenes/Credits.tscn
+Splashscreen.tscn::PackedScene/PackedScene::599396630691013002::1757537611::0::1::::<><><>0<>0<><>::uid://d36logajv3ori::::res://Scenes/splashscreen.gd<>uid://c1u52r0cg33hy::::res://Images/download.jpg<>uid://l1013nyyyji2::::res://Images/WPI_Inst_Second_FulClr.png
+titlescreen.gd::GDScript/GDScript::7973437759799698245::1757526567::0::1::::<>Control<><>0<>0<><>::
+titlescreen.tscn::PackedScene/PackedScene::-1::1757537844::0::1::::<><><>0<>0<><>::
+VersionNotes.tscn::PackedScene/PackedScene::7254985538269152595::1757537609::0::1::::<><><>0<>0<><>::
 ::res://Scenes/Main Scenes/::1757519633
 main.tscn::PackedScene/PackedScene::526384662909151337::1757519570::0::1::::<><><>0<>0<><>::
