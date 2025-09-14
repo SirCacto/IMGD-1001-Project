@@ -1,10 +1,10 @@
 [gd_scene load_steps=13 format=3 uid="uid://d101g4xpsack5"]
 
-[ext_resource type="Script" uid="uid://dlunmcl0johu8" path="res://Scenes/titlescreen.gd" id="1_3lblr"]
+[ext_resource type="Script" uid="uid://dlunmcl0johu8" path="res://Scenes/Title Screen/titlescreen.gd" id="1_3lblr"]
 [ext_resource type="Texture2D" uid="uid://bgo37d11u8fna" path="res://Images/Day Drifter Title Screen.png" id="2_u4xby"]
-[ext_resource type="PackedScene" uid="uid://du0kxoxpojq0p" path="res://Scenes/Credits.tscn" id="3_h87bp"]
+[ext_resource type="PackedScene" uid="uid://du0kxoxpojq0p" path="res://Scenes/Title Screen/Credits.tscn" id="3_h87bp"]
 [ext_resource type="StyleBox" uid="uid://dhmdwtao3nw4h" path="res://Scenes/Red.tres" id="3_wshof"]
-[ext_resource type="PackedScene" uid="uid://dbmms064g7ry6" path="res://Scenes/VersionNotes.tscn" id="5_qf0g6"]
+[ext_resource type="PackedScene" uid="uid://dbmms064g7ry6" path="res://Scenes/Title Screen/VersionNotes.tscn" id="5_qf0g6"]
 [ext_resource type="AudioStream" uid="uid://4lcbhxw0b11m" path="res://Music-SFX/Morning(titlescreen).mp3" id="6_up5sg"]
 
 [sub_resource type="Animation" id="Animation_h87bp"]

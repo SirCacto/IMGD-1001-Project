@@ -1,8 +1,8 @@
 [gd_scene load_steps=7 format=3 uid="uid://isl8fa3ecqhm"]
 
-[ext_resource type="Script" uid="uid://d36logajv3ori" path="res://Scenes/splashscreen.gd" id="1_3bv72"]
-[ext_resource type="Texture2D" uid="uid://c1u52r0cg33hy" path="res://Images/download.jpg" id="1_ftcwr"]
-[ext_resource type="Texture2D" uid="uid://l1013nyyyji2" path="res://Images/WPI_Inst_Second_FulClr.png" id="2_3bv72"]
+[ext_resource type="Script" uid="uid://d36logajv3ori" path="res://Scenes/Title Screen/splashscreen.gd" id="1_b3l1a"]
+[ext_resource type="Texture2D" uid="uid://c1u52r0cg33hy" path="res://Images/download.jpg" id="2_kv2au"]
+[ext_resource type="Texture2D" uid="uid://l1013nyyyji2" path="res://Images/WPI_Inst_Second_FulClr.png" id="3_hqypi"]
 
 [sub_resource type="Animation" id="Animation_30vxa"]
 length = 0.001
@@ -31,19 +31,19 @@ _data = {
 }
 
 [node name="Node2D" type="Node2D"]
-script = ExtResource("1_3bv72")
+script = ExtResource("1_b3l1a")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
 position = Vector2(574.25, 323.25)
 scale = Vector2(4.20182, 3.50546)
-texture = ExtResource("1_ftcwr")
+texture = ExtResource("2_kv2au")
 
 [node name="LOGO" type="Node2D" parent="Sprite2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="Sprite2D/LOGO"]
 position = Vector2(-0.297546, 0.213959)
 scale = Vector2(0.180035, 0.180035)
-texture = ExtResource("2_3bv72")
+texture = ExtResource("3_hqypi")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {

@@ -1,4 +1,5 @@
 res://Scenes/titlescreen.tscn
-res://Scenes/Splashscreen.tscn
-res://Scenes/Credits.tscn
-res://Scenes/VersionNotes.tscn
+res://Scenes/Title Screen/Splashscreen.tscn
+res://Scenes/Title Screen/Credits.tscn
+res://Scenes/Title Screen/VersionNotes.tscn
+res://Scenes/Player/player.tscn
