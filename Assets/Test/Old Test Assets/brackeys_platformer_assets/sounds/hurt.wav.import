@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://co0q8ayia6uy1"
+path="res://.godot/imported/hurt.wav-59923630f06a67c29930ef57f0ac1a3a.sample"
+
+[deps]
+
+source_file="res://Assets/Test/Old Test Assets/brackeys_platformer_assets/sounds/hurt.wav"
+dest_files=["res://.godot/imported/hurt.wav-59923630f06a67c29930ef57f0ac1a3a.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
