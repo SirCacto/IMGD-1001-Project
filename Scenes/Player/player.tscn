@@ -1,7 +1,7 @@
 [gd_scene load_steps=26 format=3 uid="uid://cjaxxmi4crab1"]
 
 [ext_resource type="Texture2D" uid="uid://bbcr45xh8dlkp" path="res://Assets/Test/Player/knight.png" id="1_3vyb7"]
-[ext_resource type="Script" path="res://scripts/Player/player.gd" id="1_g2els"]
+[ext_resource type="Script" uid="uid://b6jpji4oeitx6" path="res://scripts/Player/player.gd" id="1_g2els"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_g2els"]
 atlas = ExtResource("1_3vyb7")
@@ -172,17 +172,21 @@ animations = [{
 radius = 5.0
 
 [node name="Player" type="CharacterBody2D"]
-position = Vector2(15, 0)
+position = Vector2(16, 0)
 collision_layer = 2
 script = ExtResource("1_g2els")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-position = Vector2(26, -13)
+position = Vector2(24, -16)
 sprite_frames = SubResource("SpriteFrames_tuyoq")
 animation = &"jump"
 autoplay = "default"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 z_index = 5
-position = Vector2(26, -7)
+position = Vector2(24, -8)
 shape = SubResource("CircleShape2D_fjrip")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(24, 0)
+zoom = Vector2(5, 5)
