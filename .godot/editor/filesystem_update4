@@ -6,4 +6,4 @@ res://Scenes/Player/player.tscn
 res://Scenes/Levels/test_level.tscn
 res://Scenes/Levels/space_level.tscn
 res://Scenes/Levels/kill_zone.tscn
-res://Scripts/kill_zone.gd
+res://Scenes/Levels/western_level.tscn

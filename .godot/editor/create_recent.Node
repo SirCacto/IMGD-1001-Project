@@ -1,9 +1,9 @@
+AudioStreamPlayer2D
 CollisionShape2D
 Label
 TileMap
 Camera2D
 StaticBody2D
-AudioStreamPlayer2D
 Node
 Button
 AnimationPlayer
