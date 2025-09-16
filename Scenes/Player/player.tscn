@@ -103,7 +103,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_qlg0r")
 }],
 "loop": true,
-"name": &"default",
+"name": &"idle",
 "speed": 10.0
 }, {
 "frames": [{
@@ -179,8 +179,8 @@ script = ExtResource("1_g2els")
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(24, -16)
 sprite_frames = SubResource("SpriteFrames_tuyoq")
-animation = &"jump"
-autoplay = "default"
+animation = &"idle"
+autoplay = "idle"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 z_index = 5
@@ -190,3 +190,4 @@ shape = SubResource("CircleShape2D_fjrip")
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(24, 0)
 zoom = Vector2(5, 5)
+limit_bottom = 144
