@@ -12,3 +12,4 @@ res://Scenes/Title Screen/titlescreen.gd
 res://Scenes/Title Screen/debugmenu.tscn
 res://Scripts/Player/player.gd
 res://Scenes/Title Screen/debugmenu.gd
+res://Scenes/Title Screen/splashscreen.gd
