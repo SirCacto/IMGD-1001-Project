@@ -602,11 +602,11 @@ stream = ExtResource("6_s6m8i")
 volume_db = -17.0
 autoplay = true
 
-[connection signal="pressed" from="Space" to="." method="_on_start_button_pressed"]
 [connection signal="pressed" from="Space" to="." method="_on_space_pressed"]
-[connection signal="pressed" from="Western" to="." method="_on_version_button_pressed"]
+[connection signal="pressed" from="Space" to="." method="_on_start_button_pressed"]
 [connection signal="pressed" from="Western" to="." method="_on_western_pressed"]
-[connection signal="pressed" from="Title" to="." method="_on_version_button_pressed"]
+[connection signal="pressed" from="Western" to="." method="_on_version_button_pressed"]
 [connection signal="pressed" from="Title" to="." method="_on_title_pressed"]
+[connection signal="pressed" from="Title" to="." method="_on_version_button_pressed"]
 [connection signal="pressed" from="CloseCreditsButton" to="." method="_on_close_credits_button_pressed"]
 [connection signal="pressed" from="CloseVNButton" to="." method="_on_close_vn_button_pressed"]

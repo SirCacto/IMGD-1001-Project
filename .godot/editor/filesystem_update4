@@ -1,4 +1,4 @@
-res://Scenes/titlescreen.tscn
+res://Scenes/Title Screen/titlescreen.tscn
 res://Scenes/Title Screen/Splashscreen.tscn
 res://Scenes/Title Screen/Credits.tscn
 res://Scenes/Title Screen/VersionNotes.tscn
@@ -7,9 +7,4 @@ res://Scenes/Levels/kill_zone.tscn
 res://Scenes/Levels/test_level.tscn
 res://Scenes/Levels/space_level.tscn
 res://Scenes/Levels/western_level.tscn
-res://Scenes/Title Screen/titlescreen.tscn
-res://Scenes/Title Screen/titlescreen.gd
 res://Scenes/Title Screen/debugmenu.tscn
-res://Scripts/Player/player.gd
-res://Scenes/Title Screen/debugmenu.gd
-res://Scenes/Title Screen/splashscreen.gd
