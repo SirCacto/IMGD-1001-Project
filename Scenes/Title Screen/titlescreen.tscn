@@ -1,11 +1,11 @@
 [gd_scene load_steps=13 format=3 uid="uid://d101g4xpsack5"]
 
-[ext_resource type="Script" uid="uid://dlunmcl0johu8" path="res://Scenes/Title Screen/titlescreen.gd" id="1_3lblr"]
-[ext_resource type="Texture2D" uid="uid://bgo37d11u8fna" path="res://Images/Day Drifter Title Screen.png" id="2_u4xby"]
-[ext_resource type="PackedScene" uid="uid://du0kxoxpojq0p" path="res://Scenes/Title Screen/Credits.tscn" id="3_h87bp"]
-[ext_resource type="StyleBox" uid="uid://dhmdwtao3nw4h" path="res://Scenes/Red.tres" id="3_wshof"]
-[ext_resource type="PackedScene" uid="uid://dbmms064g7ry6" path="res://Scenes/Title Screen/VersionNotes.tscn" id="5_qf0g6"]
-[ext_resource type="AudioStream" uid="uid://4lcbhxw0b11m" path="res://Music-SFX/Morning(titlescreen).mp3" id="6_up5sg"]
+[ext_resource type="Script" uid="uid://dlunmcl0johu8" path="res://Scenes/Title Screen/titlescreen.gd" id="1_h3axb"]
+[ext_resource type="Texture2D" uid="uid://bgo37d11u8fna" path="res://Images/Day Drifter Title Screen.png" id="2_d4up6"]
+[ext_resource type="PackedScene" uid="uid://du0kxoxpojq0p" path="res://Scenes/Title Screen/Credits.tscn" id="3_tyt3k"]
+[ext_resource type="StyleBox" uid="uid://dhmdwtao3nw4h" path="res://Scenes/Red.tres" id="4_nry7n"]
+[ext_resource type="PackedScene" uid="uid://dbmms064g7ry6" path="res://Scenes/Title Screen/VersionNotes.tscn" id="5_xeixp"]
+[ext_resource type="AudioStream" uid="uid://4lcbhxw0b11m" path="res://Music-SFX/Morning(titlescreen).mp3" id="6_p6wpf"]
 
 [sub_resource type="Animation" id="Animation_h87bp"]
 resource_name = "Credits In"
@@ -622,7 +622,7 @@ offset_right = 110.0
 offset_bottom = -53.0
 grow_horizontal = 2
 grow_vertical = 2
-script = ExtResource("1_3lblr")
+script = ExtResource("1_h3axb")
 
 [node name="StartButton" type="Button" parent="."]
 z_index = 5
@@ -664,7 +664,7 @@ theme_override_font_sizes/font_size = 50
 [node name="DayDrifterTitleScreen" type="Sprite2D" parent="."]
 position = Vector2(16, 13)
 scale = Vector2(0.0858883, 0.080345)
-texture = ExtResource("2_u4xby")
+texture = ExtResource("2_d4up6")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 root_node = NodePath("../Credits")
@@ -672,7 +672,7 @@ libraries = {
 &"": SubResource("AnimationLibrary_w7bgp")
 }
 
-[node name="Credits" parent="." instance=ExtResource("3_h87bp")]
+[node name="Credits" parent="." instance=ExtResource("3_tyt3k")]
 visible = false
 layout_mode = 1
 offset_left = -310.0
@@ -689,13 +689,13 @@ offset_top = -243.0
 offset_right = -268.0
 offset_bottom = -193.0
 theme_override_font_sizes/font_size = 30
-theme_override_styles/hover_pressed = ExtResource("3_wshof")
-theme_override_styles/hover = ExtResource("3_wshof")
-theme_override_styles/pressed = ExtResource("3_wshof")
-theme_override_styles/normal = ExtResource("3_wshof")
+theme_override_styles/hover_pressed = ExtResource("4_nry7n")
+theme_override_styles/hover = ExtResource("4_nry7n")
+theme_override_styles/pressed = ExtResource("4_nry7n")
+theme_override_styles/normal = ExtResource("4_nry7n")
 text = " X "
 
-[node name="VersionNotes" parent="." instance=ExtResource("5_qf0g6")]
+[node name="VersionNotes" parent="." instance=ExtResource("5_xeixp")]
 visible = false
 layout_mode = 1
 offset_left = -174.0
@@ -711,15 +711,15 @@ offset_top = -195.0
 offset_right = -132.0
 offset_bottom = -145.0
 theme_override_font_sizes/font_size = 30
-theme_override_styles/hover_pressed = ExtResource("3_wshof")
-theme_override_styles/hover = ExtResource("3_wshof")
-theme_override_styles/pressed = ExtResource("3_wshof")
-theme_override_styles/normal = ExtResource("3_wshof")
+theme_override_styles/hover_pressed = ExtResource("4_nry7n")
+theme_override_styles/hover = ExtResource("4_nry7n")
+theme_override_styles/pressed = ExtResource("4_nry7n")
+theme_override_styles/normal = ExtResource("4_nry7n")
 disabled = true
 text = " X "
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-stream = ExtResource("6_up5sg")
+stream = ExtResource("6_p6wpf")
 volume_db = -17.0
 autoplay = true
 
