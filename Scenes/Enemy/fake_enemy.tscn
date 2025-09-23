@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bw5k3kl45b41f"]
+
+[ext_resource type="Texture2D" uid="uid://bqydj25wfdusa" path="res://Images/icon.svg" id="1_28f0x"]
+
+[node name="FakeEnemy" type="Sprite2D"]
+position = Vector2(1, -1)
+scale = Vector2(0.234375, 0.234375)
+texture = ExtResource("1_28f0x")
