@@ -8,3 +8,8 @@ res://Scenes/Levels/kill_zone.tscn
 res://Scenes/Levels/test_level.tscn
 res://Scenes/Levels/space_level.tscn
 res://Scenes/Title Screen/debugmenu.tscn
+res://Scenes/falling_platform_new.tscn
+res://Scenes/Platforms/falling_platform.tscn
+res://Scenes/Platforms/falling_platform.gd
+res://Scenes/Platforms/falling_platform_western.tscn
+res://Scenes/Platforms/falling_platform_space.tscn

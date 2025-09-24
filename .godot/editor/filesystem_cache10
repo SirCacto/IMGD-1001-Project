@@ -1,93 +1,97 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1758672958
-::res://Assets/::1758657515
-FallingPlatformWestern.png::CompressedTexture2D/CompressedTexture2D::8338831405048652895::1758657507::1758657515::1::::<><><>0<>0<>09a1bb633e062539e14059995fe210aa<>res://.godot/imported/FallingPlatformWestern.png-ccd8f5ca9a2246a558f97ce2c239ae51.ctex::
-::res://Assets/Test/::1758657507
-::res://Assets/Test/Old Test Assets/::1758039904
-::res://Assets/Test/Old Test Assets/brackeys_platformer_assets/::1758672958
-LICENSE & CREDITS.txt::TextFile/TextFile::-1::1758039904::0::1::::<><><>0<>0<><>::
-::res://Assets/Test/Old Test Assets/brackeys_platformer_assets/fonts/::1758039926
-PixelOperator8-Bold.ttf::FontFile/FontFile::7674180639919133012::1758039904::1758039926::1::::<><><>0<>0<>74c13df5f4b9cc394cd2dd162617a616<>res://.godot/imported/PixelOperator8-Bold.ttf-5fb658264380a3fa8af7f85da5c0a6d9.fontdata::
-PixelOperator8.ttf::FontFile/FontFile::4301142509642225366::1758039904::1758039926::1::::<><><>0<>0<>8443af455017c415b6a9ebd80db4f586<>res://.godot/imported/PixelOperator8.ttf-430d9c0c0c5ff4ce0fdb0a82e9f388f3.fontdata::
-::res://Assets/Test/Old Test Assets/brackeys_platformer_assets/music/::1758039926
-time_for_adventure.mp3::AudioStreamMP3/AudioStreamMP3::1350468740457543986::1758039904::1758039926::1::::<><><>0<>0<>658613620e4e771b126cb3ea7aee844e<>res://.godot/imported/time_for_adventure.mp3-d35e62bf6bb26f2987fe5d381a646448.mp3str::
-::res://Assets/Test/Old Test Assets/brackeys_platformer_assets/sounds/::1758039926
-coin.wav::AudioStreamWAV/AudioStreamWAV::2047047610887731447::1758039904::1758039926::1::::<><><>0<>0<>9ec2e6a7f8658b6a034eb2efa8367001<>res://.godot/imported/coin.wav-13b1ccd9c4250cfa9e89104ec1be5934.sample::
-explosion.wav::AudioStreamWAV/AudioStreamWAV::3115643217186093056::1758039904::1758039926::1::::<><><>0<>0<>6e8746dd9b98fe5130fbd3123c329850<>res://.godot/imported/explosion.wav-2a2b0c4350c75d558804d8d6841c67be.sample::
-hurt.wav::AudioStreamWAV/AudioStreamWAV::5808125062693306642::1758039904::1758039926::1::::<><><>0<>0<>84c6ee9cfa913f262bfea1ffcb7fdfbe<>res://.godot/imported/hurt.wav-59923630f06a67c29930ef57f0ac1a3a.sample::
-jump.wav::AudioStreamWAV/AudioStreamWAV::3513620885737127876::1758039904::1758039926::1::::<><><>0<>0<>ecc3b997d4f473835eb754ea92632817<>res://.godot/imported/jump.wav-f9fff959341d1218b4e527750c8a3e2b.sample::
-power_up.wav::AudioStreamWAV/AudioStreamWAV::2323688848188585187::1758039904::1758039926::1::::<><><>0<>0<>0dc411602fcb28ef90e93b94f73fecf5<>res://.godot/imported/power_up.wav-4b0e52e6a045e9b41bdf688e2f7ade87.sample::
-tap.wav::AudioStreamWAV/AudioStreamWAV::8868221071529293540::1758039904::1758039926::1::::<><><>0<>0<>93497bdfa6d3e2b3950972d1fce7d2b1<>res://.godot/imported/tap.wav-614c98e622be6243618d7bc2ef17c2e8.sample::
-::res://Assets/Test/Placeholder/::1758657515
-art_atlas.png::CompressedTexture2D/CompressedTexture2D::6096841398595460836::1758657507::1758657515::1::::<><><>0<>0<>bb2753b8413541abdd2dcb2990c991d8<>res://.godot/imported/art_atlas.png-7d52249a8d3ba2ba0c4db4c667889ede.ctex::
-tiles.png::CompressedTexture2D/CompressedTexture2D::8503478743053755991::1758657507::1758657515::1::::<><><>0<>0<>ef5c52bc39b6ccc0fdb60ebcf7bd6a89<>res://.godot/imported/tiles.png-8582be0f5bfb6765d751c091c6a44dc1.ctex::
-::res://Assets/Test/Player/::1758039926
-knight.png::CompressedTexture2D/CompressedTexture2D::2461823871332808791::1758039904::1758039926::1::::<><><>0<>0<>75a0dd5665a4ab8ade82f2a64b904903<>res://.godot/imported/knight.png-d8b97d295f8bb7108bb1aadc890651af.ctex::
-::res://Images/::1757545171
-Day Drifter Title Screen.png::CompressedTexture2D/CompressedTexture2D::2838212454224866134::1757545136::1757545171::1::::<><><>0<>0<>04efbd7f4669ea09ba1950bd92125bfc<>res://.godot/imported/Day Drifter Title Screen.png-d34bc9aefc2067cc4c2e3b6a19e8dcc6.ctex::
-download.jpg::CompressedTexture2D/CompressedTexture2D::6640909514891750582::1757457431::1757457431::1::::<><><>0<>0<>30b7eb6cac7d265d9278d4623c9919bc<>res://.godot/imported/download.jpg-41e95e8835b2ba38c96b5420769935b1.ctex::
-icon.svg::CompressedTexture2D/CompressedTexture2D::3559186936603486300::1757454121::1757454413::1::::<><><>0<>0<>be09c37e75ceca45bf73df36f924f287<>res://.godot/imported/icon.svg-b7ee14c4fc7622c16acfaa49648fa144.ctex::
-WPI_Inst_Second_FulClr.png::CompressedTexture2D/CompressedTexture2D::827316948944336975::1757455010::1757455010::1::::<><><>0<>0<>aacf90aebbb5a643a58261a584438df1<>res://.godot/imported/WPI_Inst_Second_FulClr.png-994ac9a8a45127931b5ee402fb602d91.ctex::
-::res://Music-SFX/::1758672958
-Midnight Tale.mp3::AudioStreamMP3/AudioStreamMP3::190889839362646247::1757512795::1757512795::1::::<><><>0<>0<>535266c5bcefcfb4c3ee591c1f21afdb<>res://.godot/imported/Midnight Tale.mp3-2de7d8c34206624875a2d58051a42a61.mp3str::
-Morning(titlescreen).mp3::AudioStreamMP3/AudioStreamMP3::2058308244804045056::1757512409::1757512427::1::::<><><>0<>0<>f6899caf899d6cb41b597b53616be9c1<>res://.godot/imported/Morning(titlescreen).mp3-6e1315abdd7704f32edde3f3ace590ff.mp3str::
-Space 1990-B.mp3::AudioStreamMP3/AudioStreamMP3::3790666579797186377::1757512670::1757512670::1::::<><><>0<>0<>f4a9e66be9a31e7c173a61a20aeefee8<>res://.godot/imported/Space 1990-B.mp3-6798886d1e8c48dda2386e394bbd285f.mp3str::
-Still Pickin(western).mp3::AudioStreamMP3/AudioStreamMP3::5114371573981003950::1757512550::1757512569::1::::<><><>0<>0<>08d3984593264fdc8e8e365745d16145<>res://.godot/imported/Still Pickin(western).mp3-b7e36b1e5ae8c3df7d7935efef4ffccb.mp3str::
-::res://Music-SFX/sprites/::1758672959
-coin.png::CompressedTexture2D::3030087284672110388::1758039904::1758672959::1::::<><><>0<>0<>49a8b32efefefb8ad722f20d8efcee25<>res://.godot/imported/coin.png-7fbd667f6d4617590e52195853df015f.ctex::
-fruit.png::CompressedTexture2D::350708959133301156::1758039904::1758672959::1::::<><><>0<>0<>285e361c30792f4b779475c3010b3b80<>res://.godot/imported/fruit.png-36d6803f17be686fe794a953e325423f.ctex::
-knight.png::CompressedTexture2D::5267503510578386943::1758039904::1758672959::1::::<><><>0<>0<>dc9db1cd84860220b4969270af768be0<>res://.godot/imported/knight.png-7a44cb7ca840d2ec090d10015f578e4b.ctex::
-platforms.png::CompressedTexture2D::8855562515083548923::1758039904::1758672959::1::::<><><>0<>0<>75250446bc6f7fdc7632f68f96ddfa54<>res://.godot/imported/platforms.png-eca5c61a1bef8136ba1d6816b5b3255e.ctex::
-slime_green.png::CompressedTexture2D::1979140842832326934::1758039904::1758672959::1::::<><><>0<>0<>01585b259c136daa6e26fbfa1a9b5190<>res://.godot/imported/slime_green.png-cd623308718778c51782ae9864dc3269.ctex::
-slime_purple.png::CompressedTexture2D::6564757162982961075::1758039904::1758672959::1::::<><><>0<>0<>c4fe6a461a13693977448c123f83ae67<>res://.godot/imported/slime_purple.png-05edd1184b390830059970d167a44b91.ctex::
-world_tileset.png::CompressedTexture2D::2097368818548610292::1758145536::1758672959::1::::<><><>0<>0<>da463dbed9d0d92dd27217bcee7d2d69<>res://.godot/imported/world_tileset.png-57842e4f31705844be2e8854f0269da1.ctex::
-::res://Music-SFX/sprites/Space/::1758672959
-Space Ground.png::CompressedTexture2D::4526134788294101032::1758658645::1758672959::1::::<><><>0<>0<>8b6e5c86301fdbdae06bc5d7055b636e<>res://.godot/imported/Space Ground.png-166e26173853c9caa8660554e24de4df.ctex::
-SpaceBackground (2).png::CompressedTexture2D::2533888641042258658::1758668989::1758672959::1::::<><><>0<>0<>156da476cc886815c9b927d4c4c48c48<>res://.godot/imported/SpaceBackground (2).png-5bcda0d6f7ecacde285416b935748044.ctex::
-SpaceExtras.png::CompressedTexture2D::4907079342731633515::1758658645::1758672959::1::::<><><>0<>0<>2d23d2a8f033255fee7765eab81738fd<>res://.godot/imported/SpaceExtras.png-982b797bf7498e1b2f47cfcd302e1de8.ctex::
-SpaceExtrasV2.png::CompressedTexture2D::8676430339837501195::1758663481::1758672959::1::::<><><>0<>0<>3dc1bdfd000b9871dcf25a10eed6447a<>res://.godot/imported/SpaceExtrasV2.png-8804c616b8e8c079e393e4ca7fd2f208.ctex::
-SpaceGround2.png::CompressedTexture2D::8953106443900563758::1758659728::1758672959::1::::<><><>0<>0<>0ac2754dc8a2f82d23abbdc0505364fd<>res://.godot/imported/SpaceGround2.png-4fb02c21bf56d3e2d7772a4782bff856.ctex::
-SpaceGroundV2.png::CompressedTexture2D::4163740158648507064::1758663481::1758672959::1::::<><><>0<>0<>8bf708663daa7c9254647e36c81c6e2b<>res://.godot/imported/SpaceGroundV2.png-3e65c4e1bdba7bbccc1d15735b93d2e8.ctex::
-SpaceGrouns2V2.png::CompressedTexture2D::5125185449978423288::1758663481::1758672959::1::::<><><>0<>0<>2c221e3aac26370080af12157d4e4124<>res://.godot/imported/SpaceGrouns2V2.png-2e832606cb6ff822f5bfbc39ff29fed0.ctex::
-SpaceRamps.png::CompressedTexture2D::8794982955751333105::1758658645::1758672959::1::::<><><>0<>0<>350a7572389ff04a05d88b678ac6c5a7<>res://.godot/imported/SpaceRamps.png-50706390dd8bebc627ecbb1fc064f23c.ctex::
-SpaceRampV2.png::CompressedTexture2D::4334100420058915820::1758663481::1758672959::1::::<><><>0<>0<>7d1265c3b495f2221aa40e69195101c6<>res://.godot/imported/SpaceRampV2.png-8e57c0e2c8a16c75e7ef192a1736c48a.ctex::
-::res://Music-SFX/sprites/Western/::1758673236
-BackgroundWestern.png::CompressedTexture2D::1065879526088855716::1758673236::1758673237::1::::<><><>0<>0<>d502542c20854a7b94abd3afb28a7ad2<>res://.godot/imported/BackgroundWestern.png-81fab3a17322c926b4f0df5a28544894.ctex::
-BackgroundWesternPlanet.png::CompressedTexture2D::8118473765374692683::1758673236::1758673237::1::::<><><>0<>0<>893b88a3c15ca0a0a47d50dc90d923f1<>res://.godot/imported/BackgroundWesternPlanet.png-a7538a9991796025085adff9795ca9ce.ctex::
-Western Ground (3).png::CompressedTexture2D::3670362579253881692::1758657500::1758672959::1::::<><><>0<>0<>a81acb410246ec6e496d7a0e6304acf9<>res://.godot/imported/Western Ground (3).png-700bc942cbd2942a1535d5be0b13ad17.ctex::
-Western Ramps (1).png::CompressedTexture2D::1428629511635424882::1758657500::1758672959::1::::<><><>0<>0<>67e800887a1d0626339b928f6255d26a<>res://.godot/imported/Western Ramps (1).png-2694dfd434d6d3676a6b945ffa0189a3.ctex::
-WesternEntras.png::CompressedTexture2D::2330071183365158627::1758657500::1758672959::1::::<><><>0<>0<>21ac237edc61e9cf86c0a3b680fa7356<>res://.godot/imported/WesternEntras.png-b1a8ea76191dae5910d09f89e140ad7f.ctex::
-Westernextras2.png::CompressedTexture2D::8864492310009966227::1758657500::1758672959::1::::<><><>0<>0<>150fb3dbb7d0f7f5f0bdbcf093a62d94<>res://.godot/imported/Westernextras2.png-2b51050b84cdf8363b6410de81e9866f.ctex::
-::res://Scenes/::1758657507
-Red.tres::StyleBoxFlat/StyleBoxFlat::7675578926656157729::1757592718::0::1::::<><><>0<>0<><>::
-::res://Scenes/Enemy/::1758657507
-fake_enemy.tscn::PackedScene/PackedScene::3993164292092749621::1758657507::0::1::::<><><>0<>0<><>::uid://bqydj25wfdusa::::res://Images/icon.svg
-::res://Scenes/Ground/::1758039904
-platform.tscn::PackedScene/PackedScene::3842778221450923120::1758039904::0::1::::<><><>0<>0<><>::uid://do031am2t5b2a::::res://assets/sprites/platforms.png
-::res://Scenes/Levels/::1758672958
-kill_zone.tscn::PackedScene::2270290233374526369::1758672215::0::1::::<><><>0<>0<><>::uid://bauehb5w8rxdh::::res://Scripts/kill_zone.gd
-space_level.tscn::PackedScene::7832343269919679971::1758672958::0::1::::<><><>0<>0<><>::uid://cjaxxmi4crab1::::res://Scenes/Player/player.tscn<>uid://buahyv2oderyf::::res://Music-SFX/Space 1990-B.mp3<>uid://448mf4koqm8c::::res://Music-SFX/sprites/world_tileset.png<>uid://7l0l32qpevo8::::res://Scenes/Levels/kill_zone.tscn<>uid://b5qq1qfq8pbki::::res://Music-SFX/sprites/Space/Space Ground.png<>uid://bcdo1myue23ry::::res://Music-SFX/sprites/Space/SpaceBackground (2).png<>uid://cb6a46dj51ey2::::res://Music-SFX/sprites/Space/SpaceExtras.png<>uid://dxkmc4qbmew54::::res://Music-SFX/sprites/Space/SpaceRamps.png<>uid://d0s7mcpridkpq::::res://Music-SFX/sprites/Space/SpaceGround2.png<>uid://dvu6smkkwg8m6::::res://Music-SFX/sprites/Space/SpaceExtrasV2.png<>uid://b0k7gsbvjtpk7::::res://Music-SFX/sprites/Space/SpaceGroundV2.png<>uid://cfaxb5h20f0fs::::res://Music-SFX/sprites/Space/SpaceGrouns2V2.png<>uid://b20qaa2pi6t1u::::res://Music-SFX/sprites/Space/SpaceRampV2.png
-test_level.tscn::PackedScene::7451991791972923887::1758672215::0::1::::<><><>0<>0<><>::uid://cjaxxmi4crab1::::res://Scenes/Player/player.tscn
-western_level.tscn::PackedScene::6260104295648926662::1758672958::0::1::::<><><>0<>0<><>::uid://cjaxxmi4crab1::::res://Scenes/Player/player.tscn<>uid://lrgcvwoutbwl::::res://Music-SFX/sprites/Western/Western Background.png<>uid://448mf4koqm8c::::res://Music-SFX/sprites/world_tileset.png<>uid://7l0l32qpevo8::::res://Scenes/Levels/kill_zone.tscn<>uid://bsj7ln05bc83a::::res://Music-SFX/sprites/Western/Western Ground (3).png<>uid://ce4o7nhfueg0e::::res://Music-SFX/Still Pickin(western).mp3<>uid://8gx6xl34ff52::::res://Music-SFX/sprites/Western/WesternEntras.png<>uid://umbk4e832vv3::::res://Music-SFX/sprites/Western/Western Ramps (1).png<>uid://dyka5mtn3oxx0::::res://Music-SFX/sprites/Western/Westernextras2.png<>uid://bw5k3kl45b41f::::res://Scenes/Enemy/fake_enemy.tscn
-::res://Scenes/Main Scenes/::1757458186
-main.tscn::PackedScene/PackedScene::526384662909151337::1757457129::0::1::::<><><>0<>0<><>::
-::res://Scenes/Platforms/::1758657515
-art_atlas.png::CompressedTexture2D/CompressedTexture2D::372403789129704883::1758657507::1758657515::1::::<><><>0<>0<>b03a6a41db9a2d72c7fb159611803759<>res://.godot/imported/art_atlas.png-2b6ab43289a5a812771d57a932ca798d.ctex::
-falling_platform.gd::GDScript/GDScript::9039767340099866177::1758657507::0::1::::<>Sprite2D<><>0<>0<><>::
-falling_platform.tscn::PackedScene/PackedScene::4717178964375579829::1758657507::0::1::::<><><>0<>0<><>::uid://dq2nlnf2f705p::::res://Assets/FallingPlatformWestern.png<>uid://d116wambbb5ar::::res://Scenes/Platforms/falling_platform.gd
-platform.tscn::PackedScene/PackedScene::2146382882614696095::1758657507::0::1::::<><><>0<>0<><>::uid://dq2nlnf2f705p::::res://Assets/FallingPlatformWestern.png
-::res://Scenes/Player/::1758672215
-player.tscn::PackedScene::5405979168181540100::1758672215::0::1::::<><><>0<>0<><>::uid://bbcr45xh8dlkp::::res://Assets/Test/Player/knight.png<>uid://b6jpji4oeitx6::::res://Scripts/Player/player.gd
-::res://Scenes/Title Screen/::1758672215
-Credits.tscn::PackedScene::8615297382436939241::1758672215::0::1::::<><><>0<>0<><>::
-debugmenu.gd::GDScript/GDScript::8170173249359475366::1758142624::0::1::::<>Control<><>0<>0<><>::
-debugmenu.tscn::PackedScene::7179228561189186521::1758672215::0::1::::<><><>0<>0<><>::uid://donxtbcakukb3::::res://Scenes/Title Screen/debugmenu.gd<>uid://bgo37d11u8fna::::res://Images/Day Drifter Title Screen.png<>uid://du0kxoxpojq0p::::res://Scenes/Title Screen/Credits.tscn<>uid://dhmdwtao3nw4h::::res://Scenes/Red.tres<>uid://dbmms064g7ry6::::res://Scenes/Title Screen/VersionNotes.tscn<>uid://4lcbhxw0b11m::::res://Music-SFX/Morning(titlescreen).mp3
-splashscreen.gd::GDScript/GDScript::9189238586933362642::1758142624::0::1::::<>Node2D<><>0<>0<><>::
-Splashscreen.tscn::PackedScene::599396630691013002::1758672214::0::1::::<><><>0<>0<><>::uid://d36logajv3ori::::res://Scenes/Title Screen/splashscreen.gd<>uid://c1u52r0cg33hy::::res://Images/download.jpg<>uid://l1013nyyyji2::::res://Images/WPI_Inst_Second_FulClr.png
-titlescreen.gd::GDScript/GDScript::7973437759799698245::1758142624::0::1::::<>Control<><>0<>0<><>::
-titlescreen.tscn::PackedScene::9037372345508240826::1758672214::0::1::::<><><>0<>0<><>::uid://dlunmcl0johu8::::res://Scenes/Title Screen/titlescreen.gd<>uid://bgo37d11u8fna::::res://Images/Day Drifter Title Screen.png<>uid://du0kxoxpojq0p::::res://Scenes/Title Screen/Credits.tscn<>uid://dhmdwtao3nw4h::::res://Scenes/Red.tres<>uid://dbmms064g7ry6::::res://Scenes/Title Screen/VersionNotes.tscn<>uid://4lcbhxw0b11m::::res://Music-SFX/Morning(titlescreen).mp3
-VersionNotes.tscn::PackedScene::7254985538269152595::1758672215::0::1::::<><><>0<>0<><>::
-::res://Scripts/::1758039904
-kill_zone.gd::GDScript/GDScript::2427963707214552609::1758039904::0::1::::<>Area2D<><>0<>0<><>::
-::res://Scripts/Player/::1758142624
-player.gd::GDScript/GDScript::4581781528923191673::1758142624::0::1::::<>CharacterBody2D<><>0<>0<><>::
+::res://::1758728109
+::res://Assets/::1758728390
+FallingPlatformSpace.png::CompressedTexture2D::5658751384151173897::1758728405::1758728295::1::::<><><>0<>0<>eaa01709ef3b9ee91f2682a15106fa07<>res://.godot/imported/FallingPlatformSpace.png-2c9f461daa07023b968a9fd5d40f0756.ctex::
+FallingPlatformWestern.png::CompressedTexture2D/CompressedTexture2D::8338831405048652895::1758728390::1758728408::1::::<><><>0<>0<>09a1bb633e062539e14059995fe210aa<>res://.godot/imported/FallingPlatformWestern.png-ccd8f5ca9a2246a558f97ce2c239ae51.ctex::
+PlatformsNew.png::CompressedTexture2D/CompressedTexture2D::9089194158576892807::1758727270::1758727273::1::::<><><>0<>0<>b4d981c9054a720b26973a48a80f8f81<>res://.godot/imported/PlatformsNew.png-4fad776a2a9261944174ce1687f4dfad.ctex::
+::res://Assets/Test/::1758654994
+::res://Assets/Test/Old Test Assets/::1757957508
+::res://Assets/Test/Old Test Assets/brackeys_platformer_assets/::1758726334
+LICENSE & CREDITS.txt::TextFile/TextFile::-1::1713583294::0::1::::<><><>0<>0<><>::
+::res://Assets/Test/Old Test Assets/brackeys_platformer_assets/fonts/::1757957332
+PixelOperator8-Bold.ttf::FontFile/FontFile::7674180639919133012::1709866750::1757957332::1::::<><><>0<>0<>74c13df5f4b9cc394cd2dd162617a616<>res://.godot/imported/PixelOperator8-Bold.ttf-5fb658264380a3fa8af7f85da5c0a6d9.fontdata::
+PixelOperator8.ttf::FontFile/FontFile::4301142509642225366::1709866750::1757957332::1::::<><><>0<>0<>8443af455017c415b6a9ebd80db4f586<>res://.godot/imported/PixelOperator8.ttf-430d9c0c0c5ff4ce0fdb0a82e9f388f3.fontdata::
+::res://Assets/Test/Old Test Assets/brackeys_platformer_assets/music/::1757957332
+time_for_adventure.mp3::AudioStreamMP3/AudioStreamMP3::1350468740457543986::1710439712::1757957332::1::::<><><>0<>0<>658613620e4e771b126cb3ea7aee844e<>res://.godot/imported/time_for_adventure.mp3-d35e62bf6bb26f2987fe5d381a646448.mp3str::
+::res://Assets/Test/Old Test Assets/brackeys_platformer_assets/sounds/::1757957332
+coin.wav::AudioStreamWAV/AudioStreamWAV::2047047610887731447::1710375490::1757957332::1::::<><><>0<>0<>9ec2e6a7f8658b6a034eb2efa8367001<>res://.godot/imported/coin.wav-13b1ccd9c4250cfa9e89104ec1be5934.sample::
+explosion.wav::AudioStreamWAV/AudioStreamWAV::3115643217186093056::1710375462::1757957332::1::::<><><>0<>0<>6e8746dd9b98fe5130fbd3123c329850<>res://.godot/imported/explosion.wav-2a2b0c4350c75d558804d8d6841c67be.sample::
+hurt.wav::AudioStreamWAV/AudioStreamWAV::5808125062693306642::1710375250::1757957332::1::::<><><>0<>0<>84c6ee9cfa913f262bfea1ffcb7fdfbe<>res://.godot/imported/hurt.wav-59923630f06a67c29930ef57f0ac1a3a.sample::
+jump.wav::AudioStreamWAV/AudioStreamWAV::3513620885737127876::1710375386::1757957332::1::::<><><>0<>0<>ecc3b997d4f473835eb754ea92632817<>res://.godot/imported/jump.wav-f9fff959341d1218b4e527750c8a3e2b.sample::
+power_up.wav::AudioStreamWAV/AudioStreamWAV::2323688848188585187::1710375580::1757957332::1::::<><><>0<>0<>0dc411602fcb28ef90e93b94f73fecf5<>res://.godot/imported/power_up.wav-4b0e52e6a045e9b41bdf688e2f7ade87.sample::
+tap.wav::AudioStreamWAV/AudioStreamWAV::8868221071529293540::1710375264::1757957332::1::::<><><>0<>0<>93497bdfa6d3e2b3950972d1fce7d2b1<>res://.godot/imported/tap.wav-614c98e622be6243618d7bc2ef17c2e8.sample::
+::res://Assets/Test/Placeholder/::1758655018
+art_atlas.png::CompressedTexture2D/CompressedTexture2D::6096841398595460836::1747694088::1758655018::1::::<><><>0<>0<>bb2753b8413541abdd2dcb2990c991d8<>res://.godot/imported/art_atlas.png-7d52249a8d3ba2ba0c4db4c667889ede.ctex::
+tiles.png::CompressedTexture2D/CompressedTexture2D::8503478743053755991::1747694094::1758655018::1::::<><><>0<>0<>ef5c52bc39b6ccc0fdb60ebcf7bd6a89<>res://.godot/imported/tiles.png-8582be0f5bfb6765d751c091c6a44dc1.ctex::
+::res://Assets/Test/Player/::1757956271
+knight.png::CompressedTexture2D/CompressedTexture2D::2461823871332808791::1757956271::1757956271::1::::<><><>0<>0<>75a0dd5665a4ab8ade82f2a64b904903<>res://.godot/imported/knight.png-d8b97d295f8bb7108bb1aadc890651af.ctex::
+::res://Images/::1757520548
+Day Drifter Title Screen.png::CompressedTexture2D/CompressedTexture2D::2838212454224866134::1757520538::1757520548::1::::<><><>0<>0<>04efbd7f4669ea09ba1950bd92125bfc<>res://.godot/imported/Day Drifter Title Screen.png-d34bc9aefc2067cc4c2e3b6a19e8dcc6.ctex::
+download.jpg::CompressedTexture2D/CompressedTexture2D::6640909514891750582::1757520486::1757520486::1::::<><><>0<>0<>30b7eb6cac7d265d9278d4623c9919bc<>res://.godot/imported/download.jpg-41e95e8835b2ba38c96b5420769935b1.ctex::
+icon.svg::CompressedTexture2D/CompressedTexture2D::3559186936603486300::1757520486::1757520486::1::::<><><>0<>0<>be09c37e75ceca45bf73df36f924f287<>res://.godot/imported/icon.svg-b7ee14c4fc7622c16acfaa49648fa144.ctex::
+WPI_Inst_Second_FulClr.png::CompressedTexture2D/CompressedTexture2D::827316948944336975::1757520486::1757520486::1::::<><><>0<>0<>aacf90aebbb5a643a58261a584438df1<>res://.godot/imported/WPI_Inst_Second_FulClr.png-994ac9a8a45127931b5ee402fb602d91.ctex::
+::res://Music-SFX/::1758726334
+Midnight Tale.mp3::AudioStreamMP3/AudioStreamMP3::190889839362646247::1757520486::1757520486::1::::<><><>0<>0<>535266c5bcefcfb4c3ee591c1f21afdb<>res://.godot/imported/Midnight Tale.mp3-2de7d8c34206624875a2d58051a42a61.mp3str::
+Morning(titlescreen).mp3::AudioStreamMP3/AudioStreamMP3::2058308244804045056::1757520486::1757520486::1::::<><><>0<>0<>f6899caf899d6cb41b597b53616be9c1<>res://.godot/imported/Morning(titlescreen).mp3-6e1315abdd7704f32edde3f3ace590ff.mp3str::
+Space 1990-B.mp3::AudioStreamMP3/AudioStreamMP3::3790666579797186377::1757520486::1757520486::1::::<><><>0<>0<>f4a9e66be9a31e7c173a61a20aeefee8<>res://.godot/imported/Space 1990-B.mp3-6798886d1e8c48dda2386e394bbd285f.mp3str::
+Still Pickin(western).mp3::AudioStreamMP3/AudioStreamMP3::5114371573981003950::1757520486::1757520486::1::::<><><>0<>0<>08d3984593264fdc8e8e365745d16145<>res://.godot/imported/Still Pickin(western).mp3-b7e36b1e5ae8c3df7d7935efef4ffccb.mp3str::
+::res://Music-SFX/sprites/::1758726334
+coin.png::CompressedTexture2D/CompressedTexture2D::3030087284672110388::1758726334::1758726334::1::::<><><>0<>0<>49a8b32efefefb8ad722f20d8efcee25<>res://.godot/imported/coin.png-7fbd667f6d4617590e52195853df015f.ctex::
+fruit.png::CompressedTexture2D/CompressedTexture2D::350708959133301156::1758726334::1758726334::1::::<><><>0<>0<>285e361c30792f4b779475c3010b3b80<>res://.godot/imported/fruit.png-36d6803f17be686fe794a953e325423f.ctex::
+knight.png::CompressedTexture2D/CompressedTexture2D::5267503510578386943::1758726334::1758726334::1::::<><><>0<>0<>dc9db1cd84860220b4969270af768be0<>res://.godot/imported/knight.png-7a44cb7ca840d2ec090d10015f578e4b.ctex::
+platforms.png::CompressedTexture2D/CompressedTexture2D::8855562515083548923::1758726334::1758726334::1::::<><><>0<>0<>75250446bc6f7fdc7632f68f96ddfa54<>res://.godot/imported/platforms.png-eca5c61a1bef8136ba1d6816b5b3255e.ctex::
+slime_green.png::CompressedTexture2D/CompressedTexture2D::1979140842832326934::1758726334::1758726334::1::::<><><>0<>0<>01585b259c136daa6e26fbfa1a9b5190<>res://.godot/imported/slime_green.png-cd623308718778c51782ae9864dc3269.ctex::
+slime_purple.png::CompressedTexture2D/CompressedTexture2D::6564757162982961075::1758726334::1758726334::1::::<><><>0<>0<>c4fe6a461a13693977448c123f83ae67<>res://.godot/imported/slime_purple.png-05edd1184b390830059970d167a44b91.ctex::
+world_tileset.png::CompressedTexture2D/CompressedTexture2D::2097368818548610292::1758726334::1758726334::1::::<><><>0<>0<>da463dbed9d0d92dd27217bcee7d2d69<>res://.godot/imported/world_tileset.png-57842e4f31705844be2e8854f0269da1.ctex::
+::res://Music-SFX/sprites/Space/::1758726334
+Space Ground.png::CompressedTexture2D/CompressedTexture2D::4526134788294101032::1758726334::1758726334::1::::<><><>0<>0<>8b6e5c86301fdbdae06bc5d7055b636e<>res://.godot/imported/Space Ground.png-166e26173853c9caa8660554e24de4df.ctex::
+SpaceBackground (2).png::CompressedTexture2D/CompressedTexture2D::2533888641042258658::1758726334::1758726334::1::::<><><>0<>0<>156da476cc886815c9b927d4c4c48c48<>res://.godot/imported/SpaceBackground (2).png-5bcda0d6f7ecacde285416b935748044.ctex::
+SpaceExtras.png::CompressedTexture2D/CompressedTexture2D::4907079342731633515::1758726334::1758726334::1::::<><><>0<>0<>2d23d2a8f033255fee7765eab81738fd<>res://.godot/imported/SpaceExtras.png-982b797bf7498e1b2f47cfcd302e1de8.ctex::
+SpaceExtrasV2.png::CompressedTexture2D/CompressedTexture2D::8676430339837501195::1758726334::1758726334::1::::<><><>0<>0<>3dc1bdfd000b9871dcf25a10eed6447a<>res://.godot/imported/SpaceExtrasV2.png-8804c616b8e8c079e393e4ca7fd2f208.ctex::
+SpaceGround2.png::CompressedTexture2D/CompressedTexture2D::8953106443900563758::1758726334::1758726334::1::::<><><>0<>0<>0ac2754dc8a2f82d23abbdc0505364fd<>res://.godot/imported/SpaceGround2.png-4fb02c21bf56d3e2d7772a4782bff856.ctex::
+SpaceGroundV2.png::CompressedTexture2D/CompressedTexture2D::4163740158648507064::1758726334::1758726334::1::::<><><>0<>0<>8bf708663daa7c9254647e36c81c6e2b<>res://.godot/imported/SpaceGroundV2.png-3e65c4e1bdba7bbccc1d15735b93d2e8.ctex::
+SpaceGrouns2V2.png::CompressedTexture2D/CompressedTexture2D::5125185449978423288::1758726334::1758726334::1::::<><><>0<>0<>2c221e3aac26370080af12157d4e4124<>res://.godot/imported/SpaceGrouns2V2.png-2e832606cb6ff822f5bfbc39ff29fed0.ctex::
+SpaceRamps.png::CompressedTexture2D/CompressedTexture2D::8794982955751333105::1758726334::1758726334::1::::<><><>0<>0<>350a7572389ff04a05d88b678ac6c5a7<>res://.godot/imported/SpaceRamps.png-50706390dd8bebc627ecbb1fc064f23c.ctex::
+SpaceRampV2.png::CompressedTexture2D/CompressedTexture2D::4334100420058915820::1758726334::1758726334::1::::<><><>0<>0<>7d1265c3b495f2221aa40e69195101c6<>res://.godot/imported/SpaceRampV2.png-8e57c0e2c8a16c75e7ef192a1736c48a.ctex::
+::res://Music-SFX/sprites/Western/::1758726334
+BackgroundWestern.png::CompressedTexture2D/CompressedTexture2D::1065879526088855716::1758726334::1758726334::1::::<><><>0<>0<>d502542c20854a7b94abd3afb28a7ad2<>res://.godot/imported/BackgroundWestern.png-81fab3a17322c926b4f0df5a28544894.ctex::
+BackgroundWesternPlanet.png::CompressedTexture2D/CompressedTexture2D::8118473765374692683::1758726334::1758726334::1::::<><><>0<>0<>893b88a3c15ca0a0a47d50dc90d923f1<>res://.godot/imported/BackgroundWesternPlanet.png-a7538a9991796025085adff9795ca9ce.ctex::
+Western Ground (3).png::CompressedTexture2D/CompressedTexture2D::3670362579253881692::1758726334::1758726334::1::::<><><>0<>0<>a81acb410246ec6e496d7a0e6304acf9<>res://.godot/imported/Western Ground (3).png-700bc942cbd2942a1535d5be0b13ad17.ctex::
+Western Ramps (1).png::CompressedTexture2D/CompressedTexture2D::1428629511635424882::1758726334::1758726334::1::::<><><>0<>0<>67e800887a1d0626339b928f6255d26a<>res://.godot/imported/Western Ramps (1).png-2694dfd434d6d3676a6b945ffa0189a3.ctex::
+WesternEntras.png::CompressedTexture2D/CompressedTexture2D::2330071183365158627::1758726334::1758726334::1::::<><><>0<>0<>21ac237edc61e9cf86c0a3b680fa7356<>res://.godot/imported/WesternEntras.png-b1a8ea76191dae5910d09f89e140ad7f.ctex::
+Westernextras2.png::CompressedTexture2D/CompressedTexture2D::8864492310009966227::1758726334::1758726334::1::::<><><>0<>0<>150fb3dbb7d0f7f5f0bdbcf093a62d94<>res://.godot/imported/Westernextras2.png-2b51050b84cdf8363b6410de81e9866f.ctex::
+::res://Scenes/::1758727979
+falling_platform_new.tscn::PackedScene::8991255319480257240::1758727979::0::1::::<><><>0<>0<><>::
+Red.tres::StyleBoxFlat/StyleBoxFlat::7675578926656157729::1757552989::0::1::::<><><>0<>0<><>::
+::res://Scenes/Enemy/::1758657295
+fake_enemy.tscn::PackedScene/PackedScene::3993164292092749621::1758657295::0::1::::<><><>0<>0<><>::uid://bqydj25wfdusa::::res://Images/icon.svg
+::res://Scenes/Ground/::1758042190
+platform.tscn::PackedScene/PackedScene::3842778221450923120::1758042190::0::1::::<><><>0<>0<><>::uid://do031am2t5b2a::::res://assets/sprites/platforms.png
+::res://Scenes/Levels/::1758728109
+kill_zone.tscn::PackedScene::2270290233374526369::1758727978::0::1::::<><><>0<>0<><>::uid://bauehb5w8rxdh::::res://Scripts/kill_zone.gd
+space_level.tscn::PackedScene::7832343269919679971::1758727978::0::1::::<><><>0<>0<><>::uid://cjaxxmi4crab1::::res://Scenes/Player/player.tscn<>uid://buahyv2oderyf::::res://Music-SFX/Space 1990-B.mp3<>uid://448mf4koqm8c::::res://Music-SFX/sprites/world_tileset.png<>uid://7l0l32qpevo8::::res://Scenes/Levels/kill_zone.tscn<>uid://b5qq1qfq8pbki::::res://Music-SFX/sprites/Space/Space Ground.png<>uid://bcdo1myue23ry::::res://Music-SFX/sprites/Space/SpaceBackground (2).png<>uid://cb6a46dj51ey2::::res://Music-SFX/sprites/Space/SpaceExtras.png<>uid://dxkmc4qbmew54::::res://Music-SFX/sprites/Space/SpaceRamps.png<>uid://d0s7mcpridkpq::::res://Music-SFX/sprites/Space/SpaceGround2.png<>uid://dvu6smkkwg8m6::::res://Music-SFX/sprites/Space/SpaceExtrasV2.png<>uid://b0k7gsbvjtpk7::::res://Music-SFX/sprites/Space/SpaceGroundV2.png<>uid://cfaxb5h20f0fs::::res://Music-SFX/sprites/Space/SpaceGrouns2V2.png<>uid://b20qaa2pi6t1u::::res://Music-SFX/sprites/Space/SpaceRampV2.png
+test_level.tscn::PackedScene::7451991791972923887::1758727978::0::1::::<><><>0<>0<><>::uid://cjaxxmi4crab1::::res://Scenes/Player/player.tscn
+western_level.tscn::PackedScene::6260104295648926662::1758728109::0::1::::<><><>0<>0<><>::uid://pgk46mggyuhg::::res://Music-SFX/sprites/Western/BackgroundWestern.png<>uid://cjaxxmi4crab1::::res://Scenes/Player/player.tscn<>uid://dnwwcu1hyyamt::::res://Music-SFX/sprites/Western/BackgroundWesternPlanet.png<>uid://448mf4koqm8c::::res://Music-SFX/sprites/world_tileset.png<>uid://7l0l32qpevo8::::res://Scenes/Levels/kill_zone.tscn<>uid://bsj7ln05bc83a::::res://Music-SFX/sprites/Western/Western Ground (3).png<>uid://ce4o7nhfueg0e::::res://Music-SFX/Still Pickin(western).mp3<>uid://8gx6xl34ff52::::res://Music-SFX/sprites/Western/WesternEntras.png<>uid://umbk4e832vv3::::res://Music-SFX/sprites/Western/Western Ramps (1).png<>uid://dyka5mtn3oxx0::::res://Music-SFX/sprites/Western/Westernextras2.png<>uid://bw5k3kl45b41f::::res://Scenes/Enemy/fake_enemy.tscn<>uid://b8hbipdlpmml6::::res://Scenes/Platforms/falling_platform_western.tscn
+::res://Scenes/Main Scenes/::1757432886
+main.tscn::PackedScene/PackedScene::526384662909151337::1757432886::0::1::::<><><>0<>0<><>::
+::res://Scenes/Platforms/::1758728119
+art_atlas.png::CompressedTexture2D/CompressedTexture2D::372403789129704883::1758655077::1758655077::1::::<><><>0<>0<>b03a6a41db9a2d72c7fb159611803759<>res://.godot/imported/art_atlas.png-2b6ab43289a5a812771d57a932ca798d.ctex::
+falling_platform.gd::GDScript::9039767340099866177::1758727708::0::1::::<>Sprite2D<><>0<>0<><>::
+falling_platform_western.tscn::PackedScene::4717178964375579829::1758727979::0::1::::<><><>0<>0<><>::uid://dq2nlnf2f705p::::res://Assets/FallingPlatformWestern.png<>uid://d116wambbb5ar::::res://Scenes/Platforms/falling_platform.gd
+platform.tscn::PackedScene/PackedScene::2146382882614696095::1758657295::0::1::::<><><>0<>0<><>::uid://dq2nlnf2f705p::::res://Assets/FallingPlatformWestern.png
+falling_platform_space.tscn::PackedScene::2599879975523806460::1758728119::0::1::::<><><>0<>0<><>::uid://dq2nlnf2f705p::::res://Assets/FallingPlatformWestern.png<>uid://d116wambbb5ar::::res://Scenes/Platforms/falling_platform.gd
+::res://Scenes/Player/::1758727978
+player.tscn::PackedScene::5405979168181540100::1758727978::0::1::::<><><>0<>0<><>::uid://bbcr45xh8dlkp::::res://Assets/Test/Player/knight.png<>uid://b6jpji4oeitx6::::res://Scripts/Player/player.gd
+::res://Scenes/Title Screen/::1758727979
+Credits.tscn::PackedScene::8615297382436939241::1758727978::0::1::::<><><>0<>0<><>::
+debugmenu.gd::GDScript/GDScript::8170173249359475366::1758126819::0::1::::<>Control<><>0<>0<><>::
+debugmenu.tscn::PackedScene::7179228561189186521::1758727979::0::1::::<><><>0<>0<><>::uid://donxtbcakukb3::::res://Scenes/Title Screen/debugmenu.gd<>uid://bgo37d11u8fna::::res://Images/Day Drifter Title Screen.png<>uid://du0kxoxpojq0p::::res://Scenes/Title Screen/Credits.tscn<>uid://dhmdwtao3nw4h::::res://Scenes/Red.tres<>uid://dbmms064g7ry6::::res://Scenes/Title Screen/VersionNotes.tscn<>uid://4lcbhxw0b11m::::res://Music-SFX/Morning(titlescreen).mp3
+splashscreen.gd::GDScript/GDScript::9189238586933362642::1758127342::0::1::::<>Node2D<><>0<>0<><>::
+Splashscreen.tscn::PackedScene::599396630691013002::1758727978::0::1::::<><><>0<>0<><>::uid://d36logajv3ori::::res://Scenes/Title Screen/splashscreen.gd<>uid://c1u52r0cg33hy::::res://Images/download.jpg<>uid://l1013nyyyji2::::res://Images/WPI_Inst_Second_FulClr.png
+titlescreen.gd::GDScript/GDScript::7973437759799698245::1758125931::0::1::::<>Control<><>0<>0<><>::
+titlescreen.tscn::PackedScene::9037372345508240826::1758727978::0::1::::<><><>0<>0<><>::uid://dlunmcl0johu8::::res://Scenes/Title Screen/titlescreen.gd<>uid://bgo37d11u8fna::::res://Images/Day Drifter Title Screen.png<>uid://du0kxoxpojq0p::::res://Scenes/Title Screen/Credits.tscn<>uid://dhmdwtao3nw4h::::res://Scenes/Red.tres<>uid://dbmms064g7ry6::::res://Scenes/Title Screen/VersionNotes.tscn<>uid://4lcbhxw0b11m::::res://Music-SFX/Morning(titlescreen).mp3
+VersionNotes.tscn::PackedScene::7254985538269152595::1758727978::0::1::::<><><>0<>0<><>::
+::res://Scripts/::1758042190
+kill_zone.gd::GDScript/GDScript::2427963707214552609::1758042190::0::1::::<>Area2D<><>0<>0<><>::
+::res://Scripts/Player/::1758126138
+player.gd::GDScript/GDScript::4581781528923191673::1758126138::0::1::::<>CharacterBody2D<><>0<>0<><>::
