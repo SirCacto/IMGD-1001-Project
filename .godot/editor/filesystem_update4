@@ -8,6 +8,3 @@ res://Scenes/Levels/kill_zone.tscn
 res://Scenes/Levels/test_level.tscn
 res://Scenes/Levels/space_level.tscn
 res://Scenes/Title Screen/debugmenu.tscn
-res://Scenes/Platforms/falling_platform.tscn
-res://Scenes/Platforms/platform.tscn
-res://Scenes/Enemy/fake_enemy.tscn

@@ -41,6 +41,8 @@ texture = ExtResource("2_kv2au")
 [node name="LOGO" type="Node2D" parent="Sprite2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="Sprite2D/LOGO"]
+texture_filter = 6
+texture_repeat = 3
 position = Vector2(-7.19926, -5.49143)
 scale = Vector2(0.180035, 0.194616)
 texture = ExtResource("3_hqypi")

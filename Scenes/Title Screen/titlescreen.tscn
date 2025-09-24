@@ -626,6 +626,7 @@ script = ExtResource("1_h3axb")
 
 [node name="StartButton" type="Button" parent="."]
 z_index = 5
+texture_filter = 1
 layout_mode = 2
 offset_left = -197.0
 offset_top = 197.0
@@ -643,6 +644,7 @@ text = "Version Notes"
 
 [node name="CreditsButton" type="Button" parent="."]
 z_index = 5
+texture_filter = 1
 layout_mode = 2
 offset_left = -460.0
 offset_top = -254.0
@@ -654,6 +656,7 @@ text = "Credits"
 
 [node name="Label" type="Label" parent="."]
 z_index = 5
+texture_filter = 1
 layout_mode = 0
 offset_left = 225.0
 offset_top = -114.0
@@ -662,6 +665,7 @@ offset_bottom = -45.0
 theme_override_font_sizes/font_size = 50
 
 [node name="DayDrifterTitleScreen" type="Sprite2D" parent="."]
+texture_filter = 1
 position = Vector2(16, 13)
 scale = Vector2(0.0858883, 0.080345)
 texture = ExtResource("2_d4up6")
