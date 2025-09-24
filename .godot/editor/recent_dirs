@@ -1,3 +1,14 @@
+<<<<<<< HEAD
+=======
+res://Scenes/Enemy
+res://Images
+res://Assets
+res://Assets/Test/Placeholder
+res://Scenes
+res://Scenes/Platforms
+res://Assets/Test/Old Test Assets/brackeys_platformer_assets/sprites
+res://Scenes/Title Screen
+>>>>>>> parent of e02391e (Implemented falling platforms.)
 res://Scenes/Levels
 res://Assets/Test/Player
 res://scripts/Player
