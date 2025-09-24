@@ -441,15 +441,6 @@ position = Vector2(270, -148)
 [node name="FallingPlatform2" parent="." instance=ExtResource("14_4it0n")]
 position = Vector2(589, -261)
 
-[node name="FallingPlatform3" parent="." instance=ExtResource("14_4it0n")]
-position = Vector2(1371, -578)
-
-[node name="FallingPlatform4" parent="." instance=ExtResource("14_4it0n")]
-position = Vector2(1412, -628)
-
-[node name="FallingPlatform5" parent="." instance=ExtResource("14_4it0n")]
-position = Vector2(1526, -724)
-
 [node name="FallingPlatform6" parent="." instance=ExtResource("15_0obph")]
 position = Vector2(3525, -820)
 
