@@ -1,3 +1,4 @@
+res://Scenes/Levels
 /Users/djbaggesen/Desktop
 /Users/djbaggesen
 res://Assets
@@ -7,7 +8,6 @@ res://Images
 res://Assets/Test/Placeholder
 res://Scenes/Platforms
 res://Scenes/Title Screen
-res://Scenes/Levels
 res://Assets/Test/Player
 res://scripts/Player
 res://Scenes/Main Scenes

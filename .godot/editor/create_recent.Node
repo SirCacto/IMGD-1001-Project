@@ -1,3 +1,4 @@
+Node
 AnimationTree
 AnimationPlayer
 CollisionShape2D
@@ -10,6 +11,4 @@ AudioStreamPlayer2D
 Label
 TileMap
 Camera2D
-Node
 Button
-Node2D
