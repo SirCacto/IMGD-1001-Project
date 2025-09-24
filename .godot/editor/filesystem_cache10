@@ -1,6 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
+<<<<<<< Updated upstream
 ::res://::1758740331
 ::res://Assets/::1758740312
+=======
+::res://::1758741193
+::res://Assets/::1758740332
+>>>>>>> Stashed changes
 FallingPlatformSpace.png::CompressedTexture2D/CompressedTexture2D::5658751384151173897::1758740312::1758740332::1::::<><><>0<>0<>eaa01709ef3b9ee91f2682a15106fa07<>res://.godot/imported/FallingPlatformSpace.png-2c9f461daa07023b968a9fd5d40f0756.ctex::
 FallingPlatformWestern.png::CompressedTexture2D/CompressedTexture2D::8338831405048652895::1758657507::1758657515::1::::<><><>0<>0<>09a1bb633e062539e14059995fe210aa<>res://.godot/imported/FallingPlatformWestern.png-ccd8f5ca9a2246a558f97ce2c239ae51.ctex::
 PlatformsNew.png::CompressedTexture2D/CompressedTexture2D::9089194158576892807::1758740312::1758740332::1::::<><><>0<>0<>b4d981c9054a720b26973a48a80f8f81<>res://.godot/imported/PlatformsNew.png-4fad776a2a9261944174ce1687f4dfad.ctex::
@@ -67,6 +72,7 @@ Red.tres::StyleBoxFlat::7675578926656157729::1757592718::0::1::::<><><>0<>0<><>:
 fake_enemy.tscn::PackedScene::3993164292092749621::1758657507::0::1::::<><><>0<>0<><>::uid://bqydj25wfdusa::::res://Images/icon.svg
 ::res://Scenes/Ground/::1758039904
 platform.tscn::PackedScene::3842778221450923120::1758039904::0::1::::<><><>0<>0<><>::uid://do031am2t5b2a::::res://assets/sprites/platforms.png
+<<<<<<< Updated upstream
 ::res://Scenes/Levels/::1758740313
 kill_zone.tscn::PackedScene::2270290233374526369::1758678794::0::1::::<><><>0<>0<><>::uid://bauehb5w8rxdh::::res://Scripts/kill_zone.gd
 space_level.tscn::PackedScene::7832343269919679971::1758740313::0::1::::<><><>0<>0<><>::uid://cjaxxmi4crab1::::res://Scenes/Player/player.tscn<>uid://buahyv2oderyf::::res://Music-SFX/Space 1990-B.mp3<>uid://448mf4koqm8c::::res://Music-SFX/sprites/world_tileset.png<>uid://7l0l32qpevo8::::res://Scenes/Levels/kill_zone.tscn<>uid://b5qq1qfq8pbki::::res://Music-SFX/sprites/Space/Space Ground.png<>uid://bcdo1myue23ry::::res://Music-SFX/sprites/Space/SpaceBackground (2).png<>uid://cb6a46dj51ey2::::res://Music-SFX/sprites/Space/SpaceExtras.png<>uid://dxkmc4qbmew54::::res://Music-SFX/sprites/Space/SpaceRamps.png<>uid://d0s7mcpridkpq::::res://Music-SFX/sprites/Space/SpaceGround2.png<>uid://dvu6smkkwg8m6::::res://Music-SFX/sprites/Space/SpaceExtrasV2.png<>uid://b0k7gsbvjtpk7::::res://Music-SFX/sprites/Space/SpaceGroundV2.png<>uid://cfaxb5h20f0fs::::res://Music-SFX/sprites/Space/SpaceGrouns2V2.png<>uid://b20qaa2pi6t1u::::res://Music-SFX/sprites/Space/SpaceRampV2.png<>uid://bdbnv4yhksckq::::res://Scenes/Platforms/falling_platform_space.tscn<>uid://b8hbipdlpmml6::::res://Scenes/Platforms/falling_platform_western.tscn
@@ -74,6 +80,18 @@ test_level.tscn::PackedScene::7451991791972923887::1758678794::0::1::::<><><>0<>
 western_level.tscn::PackedScene::6260104295648926662::1758740313::0::1::::<><><>0<>0<><>::uid://pgk46mggyuhg::::res://Music-SFX/sprites/Western/BackgroundWestern.png<>uid://cjaxxmi4crab1::::res://Scenes/Player/player.tscn<>uid://dnwwcu1hyyamt::::res://Music-SFX/sprites/Western/BackgroundWesternPlanet.png<>uid://448mf4koqm8c::::res://Music-SFX/sprites/world_tileset.png<>uid://7l0l32qpevo8::::res://Scenes/Levels/kill_zone.tscn<>uid://bsj7ln05bc83a::::res://Music-SFX/sprites/Western/Western Ground (3).png<>uid://ce4o7nhfueg0e::::res://Music-SFX/Still Pickin(western).mp3<>uid://8gx6xl34ff52::::res://Music-SFX/sprites/Western/WesternEntras.png<>uid://umbk4e832vv3::::res://Music-SFX/sprites/Western/Western Ramps (1).png<>uid://dyka5mtn3oxx0::::res://Music-SFX/sprites/Western/Westernextras2.png<>uid://bw5k3kl45b41f::::res://Scenes/Enemy/fake_enemy.tscn<>uid://b8hbipdlpmml6::::res://Scenes/Platforms/falling_platform_western.tscn
 ::res://Scenes/Main Scenes/::1757458186
 main.tscn::PackedScene::526384662909151337::1757457129::0::1::::<><><>0<>0<><>::
+=======
+::res://Scenes/Levels/::1758741175
+End.tscn::PackedScene::7383927254885905032::1758741175::0::1::::<><><>0<>0<><>::uid://7l0l32qpevo8::::res://Scenes/Levels/kill_zone.tscn<>uid://dcecaurrlpiw0::::res://Scenes/Levels/space_end.gd
+kill_zone.tscn::PackedScene::2270290233374526369::1758678794::0::1::::<><><>0<>0<><>::uid://bauehb5w8rxdh::::res://Scripts/kill_zone.gd
+space_end.gd::GDScript::7308019760873519405::1758741166::0::1::::<>Area2D<><>0<>0<><>::
+space_level.tscn::PackedScene::7832343269919679971::1758741166::0::1::::<><><>0<>0<><>::uid://cjaxxmi4crab1::::res://Scenes/Player/player.tscn<>uid://buahyv2oderyf::::res://Music-SFX/Space 1990-B.mp3<>uid://448mf4koqm8c::::res://Music-SFX/sprites/world_tileset.png<>uid://7l0l32qpevo8::::res://Scenes/Levels/kill_zone.tscn<>uid://b5qq1qfq8pbki::::res://Music-SFX/sprites/Space/Space Ground.png<>uid://bcdo1myue23ry::::res://Music-SFX/sprites/Space/SpaceBackground (2).png<>uid://cb6a46dj51ey2::::res://Music-SFX/sprites/Space/SpaceExtras.png<>uid://dxkmc4qbmew54::::res://Music-SFX/sprites/Space/SpaceRamps.png<>uid://d0s7mcpridkpq::::res://Music-SFX/sprites/Space/SpaceGround2.png<>uid://dvu6smkkwg8m6::::res://Music-SFX/sprites/Space/SpaceExtrasV2.png<>uid://b0k7gsbvjtpk7::::res://Music-SFX/sprites/Space/SpaceGroundV2.png<>uid://cfaxb5h20f0fs::::res://Music-SFX/sprites/Space/SpaceGrouns2V2.png<>uid://b20qaa2pi6t1u::::res://Music-SFX/sprites/Space/SpaceRampV2.png<>uid://bdbnv4yhksckq::::res://Scenes/Platforms/falling_platform_space.tscn<>uid://b8hbipdlpmml6::::res://Scenes/Platforms/falling_platform_western.tscn<>uid://ddg3g507yqfum::::res://Scenes/Levels/End.tscn
+test_level.tscn::PackedScene::7451991791972923887::1758678794::0::1::::<><><>0<>0<><>::uid://cjaxxmi4crab1::::res://Scenes/Player/player.tscn
+western_end.gd::GDScript::7935771044405275196::1758741166::0::1::::<>Area2D<><>0<>0<><>::
+western_level.tscn::PackedScene::6260104295648926662::1758741166::0::1::::<><><>0<>0<><>::uid://pgk46mggyuhg::::res://Music-SFX/sprites/Western/BackgroundWestern.png<>uid://cjaxxmi4crab1::::res://Scenes/Player/player.tscn<>uid://dnwwcu1hyyamt::::res://Music-SFX/sprites/Western/BackgroundWesternPlanet.png<>uid://448mf4koqm8c::::res://Music-SFX/sprites/world_tileset.png<>uid://7l0l32qpevo8::::res://Scenes/Levels/kill_zone.tscn<>uid://bsj7ln05bc83a::::res://Music-SFX/sprites/Western/Western Ground (3).png<>uid://ce4o7nhfueg0e::::res://Music-SFX/Still Pickin(western).mp3<>uid://8gx6xl34ff52::::res://Music-SFX/sprites/Western/WesternEntras.png<>uid://umbk4e832vv3::::res://Music-SFX/sprites/Western/Western Ramps (1).png<>uid://dyka5mtn3oxx0::::res://Music-SFX/sprites/Western/Westernextras2.png<>uid://bw5k3kl45b41f::::res://Scenes/Enemy/fake_enemy.tscn<>uid://b8hbipdlpmml6::::res://Scenes/Platforms/falling_platform_western.tscn<>uid://dlce8wcatwbrw::::res://Scenes/Levels/western_end.gd
+::res://Scenes/Main Scenes/::1758740900
+main.tscn::PackedScene::526384662909151337::1758740900::0::1::::<><><>0<>0<><>::
+>>>>>>> Stashed changes
 ::res://Scenes/Platforms/::1758740313
 art_atlas.png::CompressedTexture2D/CompressedTexture2D::372403789129704883::1758657507::1758657515::1::::<><><>0<>0<>b03a6a41db9a2d72c7fb159611803759<>res://.godot/imported/art_atlas.png-2b6ab43289a5a812771d57a932ca798d.ctex::
 falling_platform.gd::GDScript::9039767340099866177::1758740313::0::1::::<>Sprite2D<><>0<>0<><>::
@@ -82,14 +100,24 @@ falling_platform_western.tscn::PackedScene::4717178964375579829::1758740313::0::
 platform.tscn::PackedScene::2146382882614696095::1758657507::0::1::::<><><>0<>0<><>::uid://dq2nlnf2f705p::::res://Assets/FallingPlatformWestern.png
 ::res://Scenes/Player/::1758678794
 player.tscn::PackedScene::5405979168181540100::1758678794::0::1::::<><><>0<>0<><>::uid://bbcr45xh8dlkp::::res://Assets/Test/Player/knight.png<>uid://b6jpji4oeitx6::::res://Scripts/Player/player.gd
+<<<<<<< Updated upstream
 ::res://Scenes/Title Screen/::1758678794
+=======
+::res://Scenes/Title Screen/::1758740901
+>>>>>>> Stashed changes
 Credits.tscn::PackedScene::8615297382436939241::1758678793::0::1::::<><><>0<>0<><>::
 debugmenu.gd::GDScript::8170173249359475366::1758142624::0::1::::<>Control<><>0<>0<><>::
 debugmenu.tscn::PackedScene::7179228561189186521::1758678794::0::1::::<><><>0<>0<><>::uid://donxtbcakukb3::::res://Scenes/Title Screen/debugmenu.gd<>uid://bgo37d11u8fna::::res://Images/Day Drifter Title Screen.png<>uid://du0kxoxpojq0p::::res://Scenes/Title Screen/Credits.tscn<>uid://dhmdwtao3nw4h::::res://Scenes/Red.tres<>uid://dbmms064g7ry6::::res://Scenes/Title Screen/VersionNotes.tscn<>uid://4lcbhxw0b11m::::res://Music-SFX/Morning(titlescreen).mp3
 splashscreen.gd::GDScript::9189238586933362642::1758142624::0::1::::<>Node2D<><>0<>0<><>::
+<<<<<<< Updated upstream
 Splashscreen.tscn::PackedScene::599396630691013002::1758678793::0::1::::<><><>0<>0<><>::uid://d36logajv3ori::::res://Scenes/Title Screen/splashscreen.gd<>uid://c1u52r0cg33hy::::res://Images/download.jpg<>uid://l1013nyyyji2::::res://Images/WPI_Inst_Second_FulClr.png
 titlescreen.gd::GDScript::7973437759799698245::1758142624::0::1::::<>Control<><>0<>0<><>::
 titlescreen.tscn::PackedScene::9037372345508240826::1758678793::0::1::::<><><>0<>0<><>::uid://dlunmcl0johu8::::res://Scenes/Title Screen/titlescreen.gd<>uid://bgo37d11u8fna::::res://Images/Day Drifter Title Screen.png<>uid://du0kxoxpojq0p::::res://Scenes/Title Screen/Credits.tscn<>uid://dhmdwtao3nw4h::::res://Scenes/Red.tres<>uid://dbmms064g7ry6::::res://Scenes/Title Screen/VersionNotes.tscn<>uid://4lcbhxw0b11m::::res://Music-SFX/Morning(titlescreen).mp3
+=======
+Splashscreen.tscn::PackedScene::599396630691013002::1758740901::0::1::::<><><>0<>0<><>::uid://d36logajv3ori::::res://Scenes/Title Screen/splashscreen.gd<>uid://c1u52r0cg33hy::::res://Images/download.jpg<>uid://l1013nyyyji2::::res://Images/WPI_Inst_Second_FulClr.png
+titlescreen.gd::GDScript::7973437759799698245::1758142624::0::1::::<>Control<><>0<>0<><>::
+titlescreen.tscn::PackedScene::9037372345508240826::1758740901::0::1::::<><><>0<>0<><>::uid://dlunmcl0johu8::::res://Scenes/Title Screen/titlescreen.gd<>uid://bgo37d11u8fna::::res://Images/Day Drifter Title Screen.png<>uid://du0kxoxpojq0p::::res://Scenes/Title Screen/Credits.tscn<>uid://dhmdwtao3nw4h::::res://Scenes/Red.tres<>uid://dbmms064g7ry6::::res://Scenes/Title Screen/VersionNotes.tscn<>uid://4lcbhxw0b11m::::res://Music-SFX/Morning(titlescreen).mp3
+>>>>>>> Stashed changes
 VersionNotes.tscn::PackedScene::7254985538269152595::1758678793::0::1::::<><><>0<>0<><>::
 ::res://Scripts/::1758039904
 kill_zone.gd::GDScript::2427963707214552609::1758039904::0::1::::<>Area2D<><>0<>0<><>::

@@ -1,4 +1,8 @@
 res://Scenes/Levels/space_level.tscn
+<<<<<<< Updated upstream
+=======
+res://Scenes/Platforms/falling_platform.gd
+>>>>>>> Stashed changes
 res://Scenes/Main Scenes/main.tscn
 res://Scenes/Levels/western_level.tscn
 res://Scenes/Title Screen/Splashscreen.tscn
