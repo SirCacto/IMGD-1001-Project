@@ -1,26 +1,14 @@
-<<<<<<< HEAD
-=======
-Sprite2D
+Node
+AnimationTree
+AnimationPlayer
 CollisionShape2D
 Area2D
+Sprite2D
 StaticBody2D
 TextureRect
 ColorRect
->>>>>>> parent of e02391e (Implemented falling platforms.)
 AudioStreamPlayer2D
-CollisionShape2D
 Label
 TileMap
 Camera2D
-StaticBody2D
-Node
 Button
-AnimationPlayer
-<<<<<<< HEAD
-Sprite2D
-=======
->>>>>>> parent of e02391e (Implemented falling platforms.)
-Node2D
-DampedSpringJoint2D
-TextureRect
-CenterContainer

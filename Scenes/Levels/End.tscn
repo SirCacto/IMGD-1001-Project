@@ -1,0 +1,25 @@
+[gd_scene load_steps=4 format=3 uid="uid://ddg3g507yqfum"]
+
+[ext_resource type="PackedScene" uid="uid://7l0l32qpevo8" path="res://Scenes/Levels/kill_zone.tscn" id="1_uohm2"]
+[ext_resource type="Script" uid="uid://dcecaurrlpiw0" path="res://Scenes/Levels/space_end.gd" id="2_2lfpm"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_5kgxc"]
+size = Vector2(67, 4)
+
+[node name="End" type="Node"]
+
+[node name="Space End" parent="." instance=ExtResource("1_uohm2")]
+position = Vector2(8938, -1940)
+script = ExtResource("2_2lfpm")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Space End"]
+position = Vector2(23.5, 65)
+shape = SubResource("RectangleShape2D_5kgxc")
+
+[node name="Ending" type="Label" parent="."]
+offset_left = 8904.0
+offset_top = -1936.0
+offset_right = 9012.0
+offset_bottom = -841.0
+text = "END OF LEVEL"
+metadata/_edit_use_anchors_ = true
