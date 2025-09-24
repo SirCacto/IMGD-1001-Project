@@ -172,7 +172,7 @@ animations = [{
 radius = 5.0
 
 [node name="Player" type="CharacterBody2D"]
-position = Vector2(16, 0)
+position = Vector2(8, 0)
 collision_layer = 2
 script = ExtResource("1_g2els")
 

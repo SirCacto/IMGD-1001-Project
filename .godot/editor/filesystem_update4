@@ -1,10 +1,5 @@
-res://Scenes/Levels/western_level.tscn
-res://Scenes/Title Screen/titlescreen.tscn
-res://Scenes/Title Screen/Splashscreen.tscn
-res://Scenes/Title Screen/Credits.tscn
-res://Scenes/Title Screen/VersionNotes.tscn
-res://Scenes/Player/player.tscn
-res://Scenes/Levels/kill_zone.tscn
-res://Scenes/Levels/test_level.tscn
 res://Scenes/Levels/space_level.tscn
-res://Scenes/Title Screen/debugmenu.tscn
+res://Scenes/Main Scenes/main.tscn
+res://Scenes/Levels/western_level.tscn
+res://Scenes/Title Screen/Splashscreen.tscn
+res://Scenes/Title Screen/titlescreen.tscn
