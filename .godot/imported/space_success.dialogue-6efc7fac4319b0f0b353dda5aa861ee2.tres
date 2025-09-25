@@ -1,0 +1,213 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_hrfob"]
+
+[resource]
+script = ExtResource("1_hrfob")
+using_states = PackedStringArray()
+titles = {
+"start": "1"
+}
+character_names = PackedStringArray("Ms. Newton", "Stephen", "Mr. Knickertwist")
+first_title = "0"
+lines = {
+"0": {
+&"id": "0",
+&"next_id": "1",
+&"type": "title"
+},
+"1": {
+&"id": "1",
+&"next_id": "2",
+&"text": "[i]BRRRRRRRRRRRINGGGGGGGG!![/i]",
+&"type": "dialogue"
+},
+"10": {
+&"character": "Mr. Knickertwist",
+&"id": "10",
+&"next_id": "11",
+&"text": "[color=red]Did you really think we wouldn’t notice you sleeping through [i]every class[/i]?",
+&"type": "dialogue"
+},
+"11": {
+&"character": "Mr. Knickertwist",
+&"id": "11",
+&"next_id": "12",
+&"text": "[color=red]We have security cameras, you know.",
+&"type": "dialogue"
+},
+"12": {
+&"character": "Mr. Knickertwist",
+&"id": "12",
+&"next_id": "13",
+&"text": "[color=red]And your grades are slipping.",
+&"type": "dialogue"
+},
+"13": {
+&"character": "Mr. Knickertwist",
+&"id": "13",
+&"next_id": "14",
+&"text": "[color=red]I’m sorry Stephen, but I have no choice but to give you detention. You’ve proven that you don’t have enough of a drive to succeed in my school, so unless you can prove me wrong…",
+&"type": "dialogue"
+},
+"14": {
+&"id": "14",
+&"next_id": "15",
+&"text": "Stephen can feel his heartbeat in his ears.",
+&"type": "dialogue"
+},
+"15": {
+&"character": "Stephen",
+&"id": "15",
+&"next_id": "16",
+&"text": "Prove him wrong?",
+&"type": "dialogue"
+},
+"16": {
+&"character": "Stephen",
+&"id": "16",
+&"next_id": "17",
+&"text": "In all these daydreams...",
+&"type": "dialogue"
+},
+"17": {
+&"character": "Stephen",
+&"id": "17",
+&"next_id": "18",
+&"text": "I’ve just been running...",
+&"type": "dialogue"
+},
+"18": {
+&"character": "Stephen",
+&"id": "18",
+&"next_id": "19",
+&"text": "Avoiding all of my enemies...",
+&"type": "dialogue"
+},
+"19": {
+&"character": "Stephen",
+&"id": "19",
+&"next_id": "20",
+&"text": "But my daydreams are my greatest strength...",
+&"type": "dialogue"
+},
+"2": {
+&"character": "Ms. Newton",
+&"id": "2",
+&"next_id": "3",
+&"text": "[color=purple]Oh– the bell already?! We’ll finish up our discussion on eclipses tomorrow. Remember to work on the packet due Friday! Oh, and Stephen? The principal would like to see you in his office.",
+&"type": "dialogue"
+},
+"20": {
+&"character": "Stephen",
+&"id": "20",
+&"next_id": "21",
+&"text": "And I need to show him that.",
+&"type": "dialogue"
+},
+"21": {
+&"character": "Mr. Knickertwist",
+&"id": "21",
+&"next_id": "23",
+&"text": "[color=red]Stephen? Where are you going?",
+&"type": "dialogue"
+},
+"22": {
+&"id": "22",
+&"next_id": "23",
+&"type": ""
+},
+"23": {
+&"id": "23",
+&"next_id": "24",
+&"text": "Coming next sprint... branching endings!",
+&"type": "dialogue"
+},
+"24": {
+&"id": "24",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"25": {
+&"id": "25",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"3": {
+&"id": "3",
+&"next_id": "4",
+&"text": "Stephen presses his lips together in a quick smile while packing up his stuff, but his heart starts to race.",
+&"type": "dialogue"
+},
+"4": {
+&"character": "Stephen",
+&"id": "4",
+&"next_id": "5",
+&"text": "The principal wants to see me? I wonder what that’s about…",
+&"type": "dialogue"
+},
+"5": {
+&"id": "5",
+&"next_id": "6",
+&"text": "Soon enough, Stephen finds himself in front of Mr. Knickertwist. The metal plate on his desk that reads the name is easier to make look at than the man who owns it.",
+&"type": "dialogue"
+},
+"6": {
+&"character": "Mr. Knickertwist",
+&"id": "6",
+&"next_id": "7",
+&"text": "[color=red]Hello, Stephen Hubert IV. Thank you for coming into my office today.",
+&"type": "dialogue"
+},
+"7": {
+&"character": "Stephen",
+&"id": "7",
+&"next_id": "8",
+&"text": "Hello Mr. Knickertwist. What’s going on…?",
+&"type": "dialogue"
+},
+"8": {
+&"character": "Mr. Knickertwist",
+&"id": "8",
+&"next_id": "9",
+&"text": "[color=red]Oh, nothing serious. Just that…",
+&"type": "dialogue"
+},
+"9": {
+&"character": "Stephen",
+&"id": "9",
+&"next_id": "10",
+&"text": "Just that… what?",
+&"type": "dialogue"
+}
+}
+raw_text = "~ start
+[i]BRRRRRRRRRRRINGGGGGGGG!![/i]
+Ms. Newton: [color=purple]Oh– the bell already?! We’ll finish up our discussion on eclipses tomorrow. Remember to work on the packet due Friday! Oh, and Stephen? The principal would like to see you in his office. 
+Stephen presses his lips together in a quick smile while packing up his stuff, but his heart starts to race.
+Stephen: The principal wants to see me? I wonder what that’s about…
+Soon enough, Stephen finds himself in front of Mr. Knickertwist. The metal plate on his desk that reads the name is easier to make look at than the man who owns it.
+Mr. Knickertwist: [color=red]Hello, Stephen Hubert IV. Thank you for coming into my office today.
+Stephen: Hello Mr. Knickertwist. What’s going on…?
+Mr. Knickertwist: [color=red]Oh, nothing serious. Just that…
+Stephen: Just that… what?
+Mr. Knickertwist: [color=red]Did you really think we wouldn’t notice you sleeping through [i]every class[/i]?
+Mr. Knickertwist: [color=red]We have security cameras, you know.
+Mr. Knickertwist: [color=red]And your grades are slipping.
+Mr. Knickertwist: [color=red]I’m sorry Stephen, but I have no choice but to give you detention. You’ve proven that you don’t have enough of a drive to succeed in my school, so unless you can prove me wrong…
+Stephen can feel his heartbeat in his ears.
+Stephen: Prove him wrong?
+Stephen: In all these daydreams...
+Stephen: I’ve just been running...
+Stephen: Avoiding all of my enemies...
+Stephen: But my daydreams are my greatest strength...
+Stephen: And I need to show him that.
+Mr. Knickertwist: [color=red]Stephen? Where are you going?
+#chase sequence
+Coming next sprint... branching endings!
+=> END"
+metadata/dialogue_manager_version = "3.7.1"

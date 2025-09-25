@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://c044xvl0d17bs"
+path="res://.godot/imported/pretitle.dialogue-a216ee7004259d8d2398efe71c61eef1.tres"
+
+[deps]
+
+source_file="res://Dialogue/pretitle.dialogue"
+dest_files=["res://.godot/imported/pretitle.dialogue-a216ee7004259d8d2398efe71c61eef1.tres"]
+
+[params]
+
+defaults=true

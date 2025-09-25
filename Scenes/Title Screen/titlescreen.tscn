@@ -1,7 +1,7 @@
 [gd_scene load_steps=13 format=3 uid="uid://d101g4xpsack5"]
 
 [ext_resource type="Script" uid="uid://dlunmcl0johu8" path="res://Scenes/Title Screen/titlescreen.gd" id="1_h3axb"]
-[ext_resource type="Texture2D" uid="uid://bgo37d11u8fna" path="res://Images/Day Drifter Title Screen.png" id="2_d4up6"]
+[ext_resource type="Texture2D" uid="uid://pr04ia761ir6" path="res://Images/TitleScreen v2.JPG" id="2_h3axb"]
 [ext_resource type="PackedScene" uid="uid://du0kxoxpojq0p" path="res://Scenes/Title Screen/Credits.tscn" id="3_tyt3k"]
 [ext_resource type="StyleBox" uid="uid://dhmdwtao3nw4h" path="res://Scenes/Red.tres" id="4_nry7n"]
 [ext_resource type="PackedScene" uid="uid://dbmms064g7ry6" path="res://Scenes/Title Screen/VersionNotes.tscn" id="5_xeixp"]
@@ -665,10 +665,11 @@ offset_bottom = -45.0
 theme_override_font_sizes/font_size = 50
 
 [node name="DayDrifterTitleScreen" type="Sprite2D" parent="."]
+z_index = -1
 texture_filter = 1
-position = Vector2(16, 13)
-scale = Vector2(0.0858883, 0.080345)
-texture = ExtResource("2_d4up6")
+position = Vector2(-14, -3)
+scale = Vector2(0.153827, 0.132132)
+texture = ExtResource("2_h3axb")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 root_node = NodePath("../Credits")

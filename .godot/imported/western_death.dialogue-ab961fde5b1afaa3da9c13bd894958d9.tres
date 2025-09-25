@@ -1,0 +1,89 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_q6h0d"]
+
+[resource]
+script = ExtResource("1_q6h0d")
+using_states = PackedStringArray()
+titles = {
+"start": "1"
+}
+character_names = PackedStringArray("Mr. Washington", "Stephen")
+first_title = "0"
+lines = {
+"0": {
+&"id": "0",
+&"next_id": "1",
+&"type": "title"
+},
+"1": {
+&"id": "1",
+&"next_id": "2",
+&"text": "Stephen is back in the History classroom.",
+&"type": "dialogue"
+},
+"2": {
+&"character": "Mr. Washington",
+&"id": "2",
+&"next_id": "3",
+&"text": "Mr. Huburt? Are you paying attention back there?",
+&"type": "dialogue"
+},
+"3": {
+&"character": "Stephen",
+&"id": "3",
+&"next_id": "4",
+&"text": "Oh! Yes! Sorry, I think I zoned out for a moment there.",
+&"type": "dialogue"
+},
+"4": {
+&"character": "Mr. Washington",
+&"id": "4",
+&"next_id": "5",
+&"text": "Then you can’t answer my question?",
+&"type": "dialogue"
+},
+"5": {
+&"character": "Stephen",
+&"id": "5",
+&"next_id": "6",
+&"text": "No, sir.",
+&"type": "dialogue"
+},
+"6": {
+&"character": "Mr. Washington",
+&"id": "6",
+&"next_id": "8",
+&"text": "Alright then. I expect better from you, Stephen. Let’s see we can focus a bit more, okay?",
+&"type": "dialogue"
+},
+"7": {
+&"id": "7",
+&"next_id": "8",
+&"type": ""
+},
+"8": {
+&"id": "8",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"9": {
+&"id": "9",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+}
+}
+raw_text = "~ start
+Stephen is back in the History classroom.
+Mr. Washington: Mr. Huburt? Are you paying attention back there?
+Stephen: Oh! Yes! Sorry, I think I zoned out for a moment there.
+Mr. Washington: Then you can’t answer my question?
+Stephen: No, sir.
+Mr. Washington: Alright then. I expect better from you, Stephen. Let’s see we can focus a bit more, okay?
+#back to level
+=> END"
+metadata/dialogue_manager_version = "3.7.1"

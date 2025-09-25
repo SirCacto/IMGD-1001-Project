@@ -21,9 +21,17 @@ boot_splash/minimum_display_time=1500
 run/show_image=true
 run/minimum_display_time=3000
 
+[autoload]
+
+DialogueManager="*res://addons/dialogue_manager/dialogue_manager.gd"
+
 [display]
 
 window/stretch/mode="viewport"
+
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/dialogue_manager/plugin.cfg")
 
 [input]
 
@@ -46,3 +54,7 @@ move_right={
 , Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","device":-1,"window_id":0,"alt_pressed":false,"shift_pressed":false,"ctrl_pressed":false,"meta_pressed":false,"pressed":false,"keycode":0,"physical_keycode":68,"key_label":0,"unicode":100,"location":0,"echo":false,"script":null)
 ]
 }
+
+[internationalization]
+
+locale/translations_pot_files=PackedStringArray("res://Dialogue/entered_school.dialogue", "res://Dialogue/pretitle.dialogue", "res://Dialogue/space_death.dialogue", "res://Dialogue/space_success.dialogue", "res://Dialogue/western_death.dialogue", "res://Dialogue/western_success.dialogue")

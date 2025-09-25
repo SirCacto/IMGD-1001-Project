@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://dej73xeclwla0"
+path="res://.godot/imported/space_success.dialogue-6efc7fac4319b0f0b353dda5aa861ee2.tres"
+
+[deps]
+
+source_file="res://Dialogue/space_success.dialogue"
+dest_files=["res://.godot/imported/space_success.dialogue-6efc7fac4319b0f0b353dda5aa861ee2.tres"]
+
+[params]
+
+defaults=true

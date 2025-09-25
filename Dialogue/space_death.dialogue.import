@@ -1,0 +1,16 @@
+[remap]
+
+importer="dialogue_manager"
+importer_version=15
+type="Resource"
+uid="uid://bn2jdyjkfrg0c"
+path="res://.godot/imported/space_death.dialogue-4c106d41d748d40a6240a5e216964415.tres"
+
+[deps]
+
+source_file="res://Dialogue/space_death.dialogue"
+dest_files=["res://.godot/imported/space_death.dialogue-4c106d41d748d40a6240a5e216964415.tres"]
+
+[params]
+
+defaults=true
