@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://c0w5vooq5746t"]
+[gd_scene load_steps=8 format=3 uid="uid://c0w5vooq5746t"]
 
 [ext_resource type="Script" uid="uid://gkad1dm0i4em" path="res://Scripts/enemy.gd" id="1_2t2r4"]
 [ext_resource type="PackedScene" uid="uid://7l0l32qpevo8" path="res://Scenes/Levels/kill_zone.tscn" id="2_n6pvg"]
@@ -21,6 +21,9 @@ animations = [{
 "name": &"default",
 "speed": 10.0
 }]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2t2r4"]
+size = Vector2(8.66667, 8.33333)
 
 [node name="Enemy" type="CharacterBody2D"]
 scale = Vector2(3, 3)
@@ -58,3 +61,12 @@ target_position = Vector2(7, 25)
 [node name="RayCastDLeft" type="RayCast2D" parent="."]
 position = Vector2(0, 5)
 target_position = Vector2(-7, 25)
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, 5)
+shape = SubResource("RectangleShape2D_2t2r4")
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

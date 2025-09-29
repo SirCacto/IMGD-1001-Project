@@ -37,3 +37,10 @@ func _process(delta: float) -> void:
 	if not ray_cast_d_left.is_colliding():
 		direction = 1
 		animated_sprite_2d.flip_h = false
+
+
+
+
+func _on_area_2d_area_entered(area: Area2D) -> void:
+	if area.is_in_group("Bullets"):
+		queue_free();

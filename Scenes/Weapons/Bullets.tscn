@@ -1,20 +1,52 @@
-[gd_scene load_steps=4 format=3 uid="uid://cr6lst84usqrg"]
+[gd_scene load_steps=5 format=3 uid="uid://cr6lst84usqrg"]
 
-[ext_resource type="Script" uid="uid://el0jq2k1pvtw" path="res://Scenes/Weapons/bullets.gd" id="1_a100q"]
 [ext_resource type="Texture2D" uid="uid://bgo37d11u8fna" path="res://Images/Day Drifter Title Screen.png" id="2_anwam"]
+
+[sub_resource type="GDScript" id="GDScript_a100q"]
+script/source = "extends CharacterBody2D
+var pos: Vector2
+var rota: float
+var dir: float
+var speed= 1000
+
+
+
+
+func _ready():
+	global_position=pos
+	global_rotation=rota
+func _physics_process(delta):
+	if Input.is_action_just_pressed(\"shoot\"): queue_free()
+	velocity=Vector2(speed,0).rotated(dir)
+	move_and_slide()
+
+func _on_area_2d_area_entered(area: Area2D) -> void:
+	queue_free()
+"
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_6t6l6"]
 size = Vector2(397.5, 167.5)
 
-[node name="Bullets" type="CharacterBody2D"]
-script = ExtResource("1_a100q")
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_a100q"]
+size = Vector2(34, 21)
 
-[node name="Sprite2D" type="Sprite2D" parent="."]
+[node name="Bullets" type="CharacterBody2D" groups=["Bullets"]]
+script = SubResource("GDScript_a100q")
+
+[node name="Sprite2D" type="Sprite2D" parent="." groups=["Bullets"]]
 position = Vector2(1.00001, 1.90735e-06)
 scale = Vector2(0.00337498, 0.00337498)
 texture = ExtResource("2_anwam")
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." groups=["Bullets"]]
 position = Vector2(-1.90735e-06, -1.90735e-06)
 scale = Vector2(0.05, 0.05)
 shape = SubResource("RectangleShape2D_6t6l6")
+
+[node name="Area2D" type="Area2D" parent="." groups=["Bullets"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" groups=["Bullets"]]
+shape = SubResource("RectangleShape2D_a100q")
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]
