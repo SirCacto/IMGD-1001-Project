@@ -192,3 +192,6 @@ position = Vector2(24, 0)
 zoom = Vector2(4, 4)
 limit_bottom = 144
 limit_smoothed = true
+
+[node name="Node2D" type="Node2D" parent="."]
+position = Vector2(24, -36)

@@ -1,7 +1,8 @@
-res://Scripts
-res://Images
-res://
+res://Scenes/Title Screen
 res://Scenes/Levels
+res://Images
+res://Scripts
+res://
 /Users/djbaggesen/Desktop
 /Users/djbaggesen
 res://Assets
@@ -9,7 +10,6 @@ res://Scenes
 res://Scenes/Enemy
 res://Assets/Test/Placeholder
 res://Scenes/Platforms
-res://Scenes/Title Screen
 res://Assets/Test/Player
 res://scripts/Player
 res://Scenes/Main Scenes

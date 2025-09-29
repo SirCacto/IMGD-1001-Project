@@ -1,3 +1,4 @@
+res://Scenes/Player/bullet.tscn
 res://Scenes/Title Screen/titlescreen.tscn
 res://Scenes/Title Screen/Splashscreen.tscn
 res://Scenes/Title Screen/Credits.tscn
@@ -11,7 +12,7 @@ res://Scenes/Title Screen/debugmenu.tscn
 res://Scenes/falling_platform_new.tscn
 res://Scenes/Platforms/falling_platform_western.tscn
 res://Scenes/Platforms/falling_platform_space.tscn
-res://Scenes/Enemy/slime.tscn
+res://Scenes/Weapons/Bullets.tscn
+res://Scenes/Weapons/gun.tscn
+res://Scenes/Platforms/platform.tscn
 res://Scenes/Enemy/enemy.tscn
-res://Scripts/enemy.gd
-res://Scripts/kill_zone.gd

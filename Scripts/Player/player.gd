@@ -1,11 +1,19 @@
 extends CharacterBody2D
 
+var gun_path=preload("res://Scenes/Weapons/gun.tscn")
+var gun=gun_path.instantiate()
+
 
 const SPEED = 180.0
 const JUMP_VELOCITY = -375.0
 
 
 @onready var animated_sprite = $AnimatedSprite2D
+
+func _ready():
+	add_child(gun)  # put the gun in the scene
+
+
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
@@ -42,5 +50,8 @@ func _physics_process(delta: float) -> void:
 		velocity.x = direction * SPEED
 	else:
 		velocity.x = move_toward(velocity.x, 0, SPEED)
+
+
+	gun.global_position=$Node2D.global_position
 
 	move_and_slide()

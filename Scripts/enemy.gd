@@ -10,6 +10,8 @@ var direction = 1
 @onready var ray_cast_d_right: RayCast2D = $RayCastDRight
 @onready var ray_cast_d_left: RayCast2D = $RayCastDLeft
 
+
+
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
 	if not is_on_floor():

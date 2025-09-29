@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://c5s8abmittyep"]
+
+[ext_resource type="Texture2D" uid="uid://l1013nyyyji2" path="res://Images/WPI_Inst_Second_FulClr.png" id="2_vatw8"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_jxgah"]
+
+[node name="Bullet" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.05, 0.05)
+texture = ExtResource("2_vatw8")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_jxgah")
