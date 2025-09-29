@@ -10,9 +10,9 @@
 [ext_resource type="Texture2D" uid="uid://8gx6xl34ff52" path="res://Music-SFX/sprites/Western/WesternEntras.png" id="5_hqkdh"]
 [ext_resource type="Texture2D" uid="uid://umbk4e832vv3" path="res://Music-SFX/sprites/Western/Western Ramps (1).png" id="5_ldyga"]
 [ext_resource type="Texture2D" uid="uid://dyka5mtn3oxx0" path="res://Music-SFX/sprites/Western/Westernextras2.png" id="7_ag3yd"]
-[ext_resource type="PackedScene" uid="uid://bw5k3kl45b41f" path="res://Scenes/Enemy/fake_enemy.tscn" id="10_3ponb"]
 [ext_resource type="PackedScene" uid="uid://b8hbipdlpmml6" path="res://Scenes/Platforms/falling_platform_western.tscn" id="12_4ocn3"]
 [ext_resource type="Script" uid="uid://dlce8wcatwbrw" path="res://Scenes/Levels/western_end.gd" id="13_lg3rs"]
+[ext_resource type="PackedScene" uid="uid://c0w5vooq5746t" path="res://Scenes/Enemy/enemy.tscn" id="14_b4tyk"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e5w4l"]
 texture = ExtResource("2_fcok5")
@@ -391,7 +391,7 @@ shape = SubResource("WorldBoundaryShape2D_dyup2")
 [node name="Player" parent="." instance=ExtResource("1_3usbp")]
 z_index = 20
 texture_filter = 1
-position = Vector2(7833, -689)
+position = Vector2(86, -51)
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="Player"]
 position = Vector2(-50, 43)
@@ -399,68 +399,30 @@ stream = ExtResource("4_fcok5")
 volume_db = -18.505
 autoplay = true
 
-[node name="FakeEnemy" parent="." instance=ExtResource("10_3ponb")]
-position = Vector2(1882, -138)
+[node name="Falling Platforms" type="Node" parent="."]
 
-[node name="FakeEnemy2" parent="." instance=ExtResource("10_3ponb")]
-position = Vector2(905, -158)
-
-[node name="FakeEnemy3" parent="." instance=ExtResource("10_3ponb")]
-position = Vector2(1175, -175)
-
-[node name="FakeEnemy4" parent="." instance=ExtResource("10_3ponb")]
-position = Vector2(2483, -128)
-
-[node name="FakeEnemy5" parent="." instance=ExtResource("10_3ponb")]
-position = Vector2(3469, -175)
-
-[node name="FakeEnemy6" parent="." instance=ExtResource("10_3ponb")]
-position = Vector2(3968, -143)
-
-[node name="FakeEnemy7" parent="." instance=ExtResource("10_3ponb")]
-position = Vector2(5126, -190)
-
-[node name="FakeEnemy8" parent="." instance=ExtResource("10_3ponb")]
-position = Vector2(6007, -364)
-
-[node name="FakeEnemy9" parent="." instance=ExtResource("10_3ponb")]
-position = Vector2(6777, -447)
-
-[node name="FakeEnemy10" parent="." instance=ExtResource("10_3ponb")]
-position = Vector2(7485, -477)
-
-[node name="FakeEnemy11" parent="." instance=ExtResource("10_3ponb")]
-position = Vector2(8382.75, -531.75)
-scale = Vector2(0.566405, 0.566405)
-
-[node name="FakeEnemy12" parent="." instance=ExtResource("10_3ponb")]
-position = Vector2(8934, -334)
-
-[node name="FakeEnemy13" parent="." instance=ExtResource("10_3ponb")]
-position = Vector2(8821, -462)
-
-[node name="FallingPlatform5" parent="." instance=ExtResource("12_4ocn3")]
+[node name="FallingPlatform5" parent="Falling Platforms" instance=ExtResource("12_4ocn3")]
 position = Vector2(3982, -237)
 
-[node name="FallingPlatform6" parent="." instance=ExtResource("12_4ocn3")]
+[node name="FallingPlatform6" parent="Falling Platforms" instance=ExtResource("12_4ocn3")]
 position = Vector2(3989, -183)
 
-[node name="FallingPlatform7" parent="." instance=ExtResource("12_4ocn3")]
+[node name="FallingPlatform7" parent="Falling Platforms" instance=ExtResource("12_4ocn3")]
 position = Vector2(4818, -168)
 
-[node name="FallingPlatform8" parent="." instance=ExtResource("12_4ocn3")]
+[node name="FallingPlatform8" parent="Falling Platforms" instance=ExtResource("12_4ocn3")]
 position = Vector2(4925, -190)
 
-[node name="FallingPlatform9" parent="." instance=ExtResource("12_4ocn3")]
+[node name="FallingPlatform9" parent="Falling Platforms" instance=ExtResource("12_4ocn3")]
 position = Vector2(6621, -395)
 
-[node name="FallingPlatform10" parent="." instance=ExtResource("12_4ocn3")]
+[node name="FallingPlatform10" parent="Falling Platforms" instance=ExtResource("12_4ocn3")]
 position = Vector2(8296, -390)
 
-[node name="FallingPlatform11" parent="." instance=ExtResource("12_4ocn3")]
+[node name="FallingPlatform11" parent="Falling Platforms" instance=ExtResource("12_4ocn3")]
 position = Vector2(9276, -372)
 
-[node name="FallingPlatform18" parent="." instance=ExtResource("12_4ocn3")]
+[node name="FallingPlatform18" parent="Falling Platforms" instance=ExtResource("12_4ocn3")]
 position = Vector2(650, -11)
 
 [node name="End" type="Node" parent="."]
@@ -480,3 +442,45 @@ offset_right = 9630.0
 offset_bottom = -231.0
 text = "END OF LEVEL"
 metadata/_edit_use_anchors_ = true
+
+[node name="Enemies" type="Node" parent="."]
+
+[node name="Enemy" parent="Enemies" instance=ExtResource("14_b4tyk")]
+position = Vector2(1900, -160)
+
+[node name="Enemy2" parent="Enemies" instance=ExtResource("14_b4tyk")]
+position = Vector2(905, -173)
+
+[node name="Enemy3" parent="Enemies" instance=ExtResource("14_b4tyk")]
+position = Vector2(1175, -192)
+
+[node name="Enemy4" parent="Enemies" instance=ExtResource("14_b4tyk")]
+position = Vector2(2906, -303)
+
+[node name="Enemy5" parent="Enemies" instance=ExtResource("14_b4tyk")]
+position = Vector2(3469, -191)
+
+[node name="Enemy6" parent="Enemies" instance=ExtResource("14_b4tyk")]
+position = Vector2(4379, -207)
+
+[node name="Enemy7" parent="Enemies" instance=ExtResource("14_b4tyk")]
+position = Vector2(5126, -205)
+
+[node name="Enemy8" parent="Enemies" instance=ExtResource("14_b4tyk")]
+position = Vector2(6007, -379)
+
+[node name="Enemy9" parent="Enemies" instance=ExtResource("14_b4tyk")]
+position = Vector2(6777, -462)
+
+[node name="Enemy10" parent="Enemies" instance=ExtResource("14_b4tyk")]
+position = Vector2(7486, -492)
+
+[node name="Enemy11" parent="Enemies" instance=ExtResource("14_b4tyk")]
+position = Vector2(8383, -566)
+scale = Vector2(7, 7)
+
+[node name="Enemy12" parent="Enemies" instance=ExtResource("14_b4tyk")]
+position = Vector2(8934, -349)
+
+[node name="Enemy13" parent="Enemies" instance=ExtResource("14_b4tyk")]
+position = Vector2(8821, -477)

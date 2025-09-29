@@ -1,4 +1,6 @@
+RayCast2D
 Node
+CharacterBody2D
 AnimationTree
 AnimationPlayer
 CollisionShape2D
@@ -11,4 +13,3 @@ AudioStreamPlayer2D
 Label
 TileMap
 Camera2D
-Button
