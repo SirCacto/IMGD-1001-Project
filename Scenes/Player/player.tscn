@@ -1,4 +1,4 @@
-[gd_scene load_steps=24 format=3 uid="uid://cjaxxmi4crab1"]
+[gd_scene load_steps=22 format=3 uid="uid://cjaxxmi4crab1"]
 
 [ext_resource type="Script" uid="uid://b6jpji4oeitx6" path="res://Scripts/Player/player.gd" id="1_g2els"]
 [ext_resource type="Texture2D" uid="uid://b8bykp7kp84po" path="res://Assets/Test/Player/knight 2.png" id="2_a3d8c"]
@@ -11,17 +11,9 @@ load_path = "res://.godot/imported/Stephen Western.png-b788ead14ef3f7b096b5f2ba1
 atlas = SubResource("CompressedTexture2D_xpcdj")
 region = Rect2(0, 192, 32, 32)
 
-[sub_resource type="AtlasTexture" id="AtlasTexture_htcer"]
-atlas = SubResource("CompressedTexture2D_xpcdj")
-region = Rect2(32, 192, 32, 32)
-
 [sub_resource type="AtlasTexture" id="AtlasTexture_dd0ac"]
 atlas = SubResource("CompressedTexture2D_xpcdj")
 region = Rect2(64, 192, 32, 32)
-
-[sub_resource type="AtlasTexture" id="AtlasTexture_0u5uq"]
-atlas = SubResource("CompressedTexture2D_xpcdj")
-region = Rect2(96, 192, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_a3d8c"]
 atlas = ExtResource("2_a3d8c")
@@ -82,13 +74,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_mtuoh")
 }, {
 "duration": 1.0,
-"texture": SubResource("AtlasTexture_htcer")
-}, {
-"duration": 1.0,
 "texture": SubResource("AtlasTexture_dd0ac")
-}, {
-"duration": 1.0,
-"texture": SubResource("AtlasTexture_0u5uq")
 }],
 "loop": true,
 "name": &"hit",
@@ -167,9 +153,9 @@ script = ExtResource("1_g2els")
 texture_filter = 1
 position = Vector2(24, -16)
 sprite_frames = SubResource("SpriteFrames_tuyoq")
-animation = &"jump"
+animation = &"run"
 autoplay = "idle"
-frame_progress = 0.0830101
+frame_progress = 0.560491
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 z_index = 5
