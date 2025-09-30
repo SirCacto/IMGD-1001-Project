@@ -1,3 +1,4 @@
+res://Assets/Test/Player
 res://Scenes/Title Screen
 res://Scenes/Levels
 res://Images
@@ -10,7 +11,6 @@ res://Scenes
 res://Scenes/Enemy
 res://Assets/Test/Placeholder
 res://Scenes/Platforms
-res://Assets/Test/Player
 res://scripts/Player
 res://Scenes/Main Scenes
 res://.godot/imported

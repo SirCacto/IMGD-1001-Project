@@ -502,6 +502,7 @@ offset_right = 110.0
 offset_bottom = -53.0
 grow_horizontal = 2
 grow_vertical = 2
+rotation = -0.00208447
 script = ExtResource("1_lswkr")
 
 [node name="Space" type="Button" parent="."]
