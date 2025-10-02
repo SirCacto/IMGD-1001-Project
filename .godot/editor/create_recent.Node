@@ -1,8 +1,10 @@
-CollisionShape2D
-Area2D
 Node2D
-Sprite2D
+Camera2D
+CollisionShape2D
+AnimatedSprite2D
 CharacterBody2D
+Area2D
+Sprite2D
 RayCast2D
 Node
 AnimationTree
@@ -10,5 +12,3 @@ AnimationPlayer
 StaticBody2D
 TextureRect
 ColorRect
-AudioStreamPlayer2D
-Label

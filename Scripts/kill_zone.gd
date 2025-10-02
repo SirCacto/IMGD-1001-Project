@@ -13,6 +13,12 @@ func _on_body_entered(body: Node2D) -> void:
 		Engine.time_scale = .5
 		# animation_player.play("Death")
 		timer.start()
+	elif body.name =="SpacePlayer":
+		print ("You died!")
+		Engine.time_scale = .5
+		# animation_player.play("Death")
+		timer.start()
+
 
 
 func _on_timer_timeout() -> void:

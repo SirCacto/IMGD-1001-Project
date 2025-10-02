@@ -1,15 +1,15 @@
-[gd_scene load_steps=9 format=3 uid="uid://c0w5vooq5746t"]
+[gd_scene load_steps=9 format=3 uid="uid://v0bhpuw0e3ck"]
 
-[ext_resource type="Script" uid="uid://gkad1dm0i4em" path="res://Scripts/enemy.gd" id="1_2t2r4"]
-[ext_resource type="Texture2D" uid="uid://ttdi7eg8ow23" path="res://Assets/Cactus.png" id="2_2t2r4"]
-[ext_resource type="PackedScene" uid="uid://7l0l32qpevo8" path="res://Scenes/Levels/kill_zone.tscn" id="2_n6pvg"]
-[ext_resource type="Texture2D" uid="uid://yc2gvju141hx" path="res://Assets/Space thing.png" id="3_dmwl5"]
+[ext_resource type="Script" uid="uid://gkad1dm0i4em" path="res://Scripts/enemy.gd" id="1_agm2i"]
+[ext_resource type="Texture2D" uid="uid://ttdi7eg8ow23" path="res://Assets/Cactus.png" id="2_j48rj"]
+[ext_resource type="PackedScene" uid="uid://7l0l32qpevo8" path="res://Scenes/Levels/kill_zone.tscn" id="3_17j02"]
+[ext_resource type="Texture2D" uid="uid://yc2gvju141hx" path="res://Assets/Space thing.png" id="3_j48rj"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_2t2r4"]
 radius = 5.0
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_dmwl5"]
-atlas = ExtResource("2_2t2r4")
+atlas = ExtResource("2_j48rj")
 region = Rect2(0, 0, 64, 64)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_2npkn"]
@@ -24,7 +24,7 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("3_dmwl5")
+"texture": ExtResource("3_j48rj")
 }],
 "loop": true,
 "name": &"new_animation",
@@ -34,9 +34,9 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_2t2r4"]
 size = Vector2(8.66667, 8.33333)
 
-[node name="Enemy" type="CharacterBody2D"]
+[node name="Space Enemy" type="CharacterBody2D"]
 scale = Vector2(3, 3)
-script = ExtResource("1_2t2r4")
+script = ExtResource("1_agm2i")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(0, 5.5)
@@ -47,9 +47,10 @@ texture_filter = 1
 position = Vector2(1.19209e-07, 5.66667)
 scale = Vector2(0.154948, 0.141927)
 sprite_frames = SubResource("SpriteFrames_2npkn")
-autoplay = "default"
+animation = &"new_animation"
+autoplay = "new_animation"
 
-[node name="Kill Zone" parent="." instance=ExtResource("2_n6pvg")]
+[node name="Kill Zone" parent="." instance=ExtResource("3_17j02")]
 collision_mask = 2
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Kill Zone"]
