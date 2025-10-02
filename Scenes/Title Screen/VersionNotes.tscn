@@ -21,10 +21,10 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_i4sal")
 text = "
               Version Notes:
 
-  v0.4
+  v0.8
   Added:
-  Western Level
-  Space Level
-  Player
+Enemies
+Projectile (shift to shoot!)
+More Dialogue
 
   More updates coming soon!  "

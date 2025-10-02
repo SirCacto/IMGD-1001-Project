@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=3 uid="uid://cvgpadvjvgyhy"]
+[gd_scene load_steps=23 format=3 uid="uid://cvgpadvjvgyhy"]
 
 [ext_resource type="Texture2D" uid="uid://pgk46mggyuhg" path="res://Music-SFX/sprites/Western/BackgroundWestern.png" id="1_3ponb"]
 [ext_resource type="PackedScene" uid="uid://cjaxxmi4crab1" path="res://Scenes/Player/player.tscn" id="1_3usbp"]
@@ -13,6 +13,7 @@
 [ext_resource type="PackedScene" uid="uid://b8hbipdlpmml6" path="res://Scenes/Platforms/falling_platform_western.tscn" id="12_4ocn3"]
 [ext_resource type="Script" uid="uid://dlce8wcatwbrw" path="res://Scenes/Levels/western_end.gd" id="13_lg3rs"]
 [ext_resource type="PackedScene" uid="uid://c0w5vooq5746t" path="res://Scenes/Enemy/enemy.tscn" id="14_b4tyk"]
+[ext_resource type="Texture2D" uid="uid://dhuivstudtwbj" path="res://Images/black.png" id="14_xbxny"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_e5w4l"]
 texture = ExtResource("2_fcok5")
@@ -484,3 +485,10 @@ position = Vector2(8934, -349)
 
 [node name="Enemy13" parent="Enemies" instance=ExtResource("14_b4tyk")]
 position = Vector2(8821, -477)
+
+[node name="Black" type="Sprite2D" parent="."]
+visible = false
+z_index = 10
+position = Vector2(9623, -272.5)
+scale = Vector2(1.69922, 1.2207)
+texture = ExtResource("14_xbxny")

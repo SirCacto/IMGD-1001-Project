@@ -146,9 +146,11 @@ shape = SubResource("CircleShape2D_fjrip")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(24, 0)
-zoom = Vector2(4, 4)
+zoom = Vector2(3, 3)
+process_callback = 0
 limit_bottom = 144
 limit_smoothed = true
+position_smoothing_enabled = true
 
 [node name="Node2D" type="Node2D" parent="."]
 position = Vector2(24, -36)

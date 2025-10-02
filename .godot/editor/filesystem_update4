@@ -18,3 +18,7 @@ res://Scenes/Weapons/Bullets.tscn
 res://Scenes/Weapons/gun.tscn
 res://Scenes/Platforms/platform.tscn
 res://Scenes/Player/bullet.tscn
+res://Scenes/dialogue_screen.tscn
+res://Scenes/Title Screen/titlescreen.gd
+res://Scenes/Levels/western_end.gd
+res://Scenes/Levels/space_end.gd

@@ -2,12 +2,14 @@ extends Control
 
 #Title screen is set to main scene so it's the first thing that runs.
 @onready var animation_player: AnimationPlayer = $AnimationPlayer
+@onready var black: Sprite2D = $Black
 
 #DEBUG STARTBUTTON
 #func _on_start_button_pressed():
 	#get_tree().change_scene_to_file("res://Scenes/Title Screen/debugmenu.tscn");
 
 func _on_start_button_pressed():
+	black.visible = !black.visible
 	DialogueManager.show_example_dialogue_balloon(load("res://Dialogue/entered_school.dialogue"))
 	
 func _ready() -> void:
