@@ -3,8 +3,6 @@
 [ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_atck5"]
 
 [resource]
-resource_local_to_scene = false
-resource_name = ""
 script = ExtResource("1_atck5")
 using_states = PackedStringArray()
 titles = {

@@ -181,6 +181,7 @@ radius = 5.0
 
 [node name="SpacePlayer" type="CharacterBody2D"]
 position = Vector2(24, 0)
+collision_layer = 2
 script = ExtResource("1_tt2o0")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
