@@ -204,3 +204,7 @@ limit_bottom = 144
 limit_smoothed = true
 
 [node name="Node2D" type="Node2D" parent="."]
+
+[node name="CoyoteTimer" type="Timer" parent="."]
+wait_time = 0.1
+one_shot = true

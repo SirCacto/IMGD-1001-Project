@@ -7,8 +7,10 @@ var gun=gun_path.instantiate()
 const SPEED = 180.0
 const JUMP_VELOCITY = -375.0
 
+var prev_frame_on_ground := false
 
 @onready var animated_sprite = $AnimatedSprite2D
+@onready var coyote_timer: Timer = $CoyoteTimer
 
 func _ready():
 	add_child(gun)  # put the gun in the scene
@@ -19,9 +21,15 @@ func _physics_process(delta: float) -> void:
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta
+		if (prev_frame_on_ground):
+			coyote_timer.start()
+			prev_frame_on_ground = false
+
+	if is_on_floor():
+		prev_frame_on_ground = true
 
 	# Handle jump.
-	if Input.is_action_just_pressed("jump") and is_on_floor():
+	if Input.is_action_just_pressed("jump") and (is_on_floor() or not coyote_timer.is_stopped()):
 		velocity.y = JUMP_VELOCITY
 
 	# Get the input direction and handle the movement/deceleration.

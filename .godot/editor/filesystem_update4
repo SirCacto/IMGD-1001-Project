@@ -1,4 +1,5 @@
 res://Scenes/Title Screen/titlescreen.tscn
+res://Scripts/Player/player.gd
 res://Scenes/Title Screen/Splashscreen.tscn
 res://Scenes/Title Screen/Credits.tscn
 res://Scenes/Title Screen/VersionNotes.tscn
@@ -18,4 +19,4 @@ res://Scenes/Weapons/Bullets.tscn
 res://Scenes/Weapons/gun.tscn
 res://Scenes/Platforms/platform.tscn
 res://Scenes/Player/bullet.tscn
-res://Scripts/kill_zone.gd
+res://Scenes/Player/space_player.gd
