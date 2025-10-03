@@ -1,10 +1,9 @@
-res://Scenes/Player/space_player.tscn
 res://Scenes/Title Screen/titlescreen.tscn
-res://Scripts/kill_zone.gd
 res://Scenes/Title Screen/Splashscreen.tscn
 res://Scenes/Title Screen/Credits.tscn
 res://Scenes/Title Screen/VersionNotes.tscn
 res://Scenes/Player/player.tscn
+res://Scenes/Player/space_player.tscn
 res://Scenes/Levels/kill_zone.tscn
 res://Scenes/Levels/test_level.tscn
 res://Scenes/Levels/space_level.tscn
@@ -19,3 +18,4 @@ res://Scenes/Weapons/Bullets.tscn
 res://Scenes/Weapons/gun.tscn
 res://Scenes/Platforms/platform.tscn
 res://Scenes/Player/bullet.tscn
+res://Scripts/kill_zone.gd
