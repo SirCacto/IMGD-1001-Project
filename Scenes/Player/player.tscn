@@ -127,7 +127,7 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_fjrip"]
 radius = 5.0
 
-[node name="Player" type="CharacterBody2D"]
+[node name="Player" type="CharacterBody2D" groups=["Friendly"]]
 position = Vector2(8, 0)
 collision_layer = 2
 script = ExtResource("1_g2els")

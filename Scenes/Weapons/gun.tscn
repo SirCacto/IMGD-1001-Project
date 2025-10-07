@@ -7,13 +7,13 @@
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_n1r3s"]
 
-[node name="Gun" type="Node2D"]
+[node name="Gun" type="Node2D" groups=["Friendly"]]
 script = SubResource("GDScript_7rnum")
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." groups=["Friendly"]]
 script = ExtResource("1_c76ja")
 
-[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D" groups=["Friendly"]]
 scale = Vector2(0.005, 0.005)
 texture = ExtResource("2_ut0fn")
 

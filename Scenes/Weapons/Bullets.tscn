@@ -22,12 +22,21 @@ func _physics_process(delta):
 
 func _on_area_2d_area_entered(area: Area2D) -> void:
 	queue_free()
+
+
+
+func _on_area_2d_body_entered(body: Node2D) -> void:
+	if not body.is_in_group(\"Friendly\"):
+		queue_free()
+	print(\"Hit:\", body.name)
+	if (body.name != \"CharacterBody2D\" and body.name != \"player\"):
+		queue_free()
 "
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_a100q"]
 size = Vector2(34, 21)
 
-[node name="Bullets" type="CharacterBody2D" groups=["Bullets"]]
+[node name="Bullets" type="CharacterBody2D" groups=["Friendly"]]
 script = SubResource("GDScript_a100q")
 
 [node name="Sprite2D" type="Sprite2D" parent="." groups=["Bullets"]]
@@ -35,7 +44,7 @@ position = Vector2(1.00001, 1.90735e-06)
 scale = Vector2(0.00337498, 0.00337498)
 texture = ExtResource("2_anwam")
 
-[node name="Area2D" type="Area2D" parent="." groups=["Bullets"]]
+[node name="Area2D" type="Area2D" parent="." groups=["Bullets", "Friendly"]]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" groups=["Bullets"]]
 shape = SubResource("RectangleShape2D_a100q")
