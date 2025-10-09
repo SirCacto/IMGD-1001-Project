@@ -344,6 +344,13 @@ offset_right = 9889.0
 offset_bottom = 34.0
 texture = ExtResource("1_vd5c3")
 
+[node name="TextureRect5" type="TextureRect" parent="."]
+offset_left = -848.0
+offset_top = -592.0
+offset_right = -306.0
+offset_bottom = 44.0
+texture = ExtResource("1_vd5c3")
+
 [node name="TextureRect" type="TextureRect" parent="."]
 offset_left = -338.0
 offset_top = -514.0
@@ -353,7 +360,7 @@ texture = ExtResource("1_3ponb")
 stretch_mode = 1
 
 [node name="TextureRect2" type="TextureRect" parent="."]
-offset_left = -197.0
+offset_left = -1014.0
 offset_top = -22.0
 offset_right = 10303.0
 offset_bottom = 1580.0
@@ -361,6 +368,7 @@ texture = ExtResource("1_3ponb")
 flip_v = true
 
 [node name="TextureRect3" type="TextureRect" parent="."]
+offset_left = -1040.0
 offset_top = -1727.0
 offset_right = 10303.0
 offset_bottom = -513.0

@@ -115,52 +115,52 @@ lines = {
 "22": {
 &"id": "22",
 &"next_id": "23",
-&"text": "Instead of this text box coming up, next version you will get two options; \"Run\" or \"Stay\"",
+&"text": "Stephen rushes out of Mr. Knickertwist's office, nearly tripping over himself while shouldering the door open.",
 &"type": "dialogue"
 },
 "23": {
+&"character": "Mr. Knickertwist",
 &"id": "23",
 &"next_id": "24",
-&"text": "Because that's being added very early next sprint, just keep your option in your mind, okay?",
+&"text": "[color=red]STEPHEN? GET BACK HERE!",
 &"type": "dialogue"
 },
 "24": {
 &"id": "24",
 &"next_id": "25",
-&"text": "Okay.",
+&"text": "But Stephen doesn't falter or slow his pace. He runs past the Science classroom...",
 &"type": "dialogue"
 },
 "25": {
 &"id": "25",
 &"next_id": "26",
-&"text": "If you chose stay...",
+&"text": "and the History classroom...",
 &"type": "dialogue"
 },
 "26": {
-&"character": "Mr. Knickertwist",
 &"id": "26",
 &"next_id": "27",
-&"text": "[color=red]Sit.",
+&"text": "and right out the front entrance of the school.",
 &"type": "dialogue"
 },
 "27": {
-&"character": "Mr. Knickertwist",
 &"id": "27",
 &"next_id": "28",
-&"text": "[color=red]Back.",
+&"text": "Behind him, Mr. Knickertwist pants, stopping short of the threshold.",
 &"type": "dialogue"
 },
 "28": {
 &"character": "Mr. Knickertwist",
 &"id": "28",
 &"next_id": "29",
-&"text": "[color=red]Down.",
+&"text": "[color=red]Damn, when that kid knows what he wants, he doesn't stop until he reaches his goal.",
 &"type": "dialogue"
 },
 "29": {
+&"character": "Mr. Knickertwist",
 &"id": "29",
 &"next_id": "30",
-&"text": "Stephen sits back down on the other side of the scowling man's desk.",
+&"text": "[color=red]Oh...",
 &"type": "dialogue"
 },
 "3": {
@@ -173,64 +173,56 @@ lines = {
 &"character": "Mr. Knickertwist",
 &"id": "30",
 &"next_id": "31",
-&"text": "[color=red]Were you thinking of running? What would that have accomplished?",
+&"text": "[color=red]I see...",
 &"type": "dialogue"
 },
 "31": {
 &"character": "Mr. Knickertwist",
 &"id": "31",
 &"next_id": "32",
-&"text": "[color=red]Well, I guess you'll never know because your in school suspension starts NOW.",
+&"text": "[color=red]Maybe I took Stephen for granted.",
 &"type": "dialogue"
 },
 "32": {
+&"character": "Mr. Knickertwist",
 &"id": "32",
 &"next_id": "33",
-&"text": "The next 6 hours seemed like they lasted years.",
+&"text": "[color=red]Maybe he has some potential after all.",
 &"type": "dialogue"
 },
 "33": {
+&"character": "Mr. Knickertwist",
 &"id": "33",
 &"next_id": "34",
-&"text": "And the rest of the week was even worse.",
+&"text": "[color=red]Alright, Stephen Hubert IV. I'll let you off with a warning this time.",
 &"type": "dialogue"
 },
 "34": {
+&"character": "Mr. Knickertwist",
 &"id": "34",
 &"next_id": "35",
-&"text": "Stephen never fell asleep in class again, but never had a dream that was quite the same level of excitment as those adventures...",
+&"text": "[color=red]Maybe what this school needs is a daydreamer or two.",
 &"type": "dialogue"
 },
 "35": {
 &"id": "35",
 &"next_id": "36",
-&"text": "Bad End.",
+&"text": "THE END",
 &"type": "dialogue"
 },
 "36": {
 &"id": "36",
-&"next_id": "37",
-&"text": "...",
-&"type": "dialogue"
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
 },
 "37": {
 &"id": "37",
-&"next_id": "38",
-&"text": "If you chose run...",
-&"type": "dialogue"
-},
-"38": {
-&"id": "38",
-&"next_id": "39",
-&"text": "Stephen rushes out of Mr. Knickertwist's office, nearly tripping over himself while shouldering the door open.",
-&"type": "dialogue"
-},
-"39": {
-&"character": "Mr. Knickertwist",
-&"id": "39",
-&"next_id": "40",
-&"text": "[color=red]STEPHEN? GET BACK HERE!",
-&"type": "dialogue"
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
 },
 "4": {
 &"character": "Stephen",
@@ -239,104 +231,11 @@ lines = {
 &"text": "The principal wants to see me? I wonder what that’s about…",
 &"type": "dialogue"
 },
-"40": {
-&"id": "40",
-&"next_id": "41",
-&"text": "But Stephen doesn't falter or slow his pace. He runs past the Science classroom...",
-&"type": "dialogue"
-},
-"41": {
-&"id": "41",
-&"next_id": "42",
-&"text": "and the History classroom...",
-&"type": "dialogue"
-},
-"42": {
-&"id": "42",
-&"next_id": "43",
-&"text": "and right out the front entrance of the school.",
-&"type": "dialogue"
-},
-"43": {
-&"id": "43",
-&"next_id": "44",
-&"text": "Behind him, Mr. Knickertwist pants, stopping short of the threshold.",
-&"type": "dialogue"
-},
-"44": {
-&"character": "Mr. Knickertwist",
-&"id": "44",
-&"next_id": "45",
-&"text": "[color=red]Damn, when that kid knows what he wants, he doesn't stop until he reaches his goal.",
-&"type": "dialogue"
-},
-"45": {
-&"character": "Mr. Knickertwist",
-&"id": "45",
-&"next_id": "46",
-&"text": "[color=red]Oh...",
-&"type": "dialogue"
-},
-"46": {
-&"character": "Mr. Knickertwist",
-&"id": "46",
-&"next_id": "47",
-&"text": "[color=red]I see...",
-&"type": "dialogue"
-},
-"47": {
-&"character": "Mr. Knickertwist",
-&"id": "47",
-&"next_id": "48",
-&"text": "[color=red]Maybe I took Stephen for granted.",
-&"type": "dialogue"
-},
-"48": {
-&"character": "Mr. Knickertwist",
-&"id": "48",
-&"next_id": "49",
-&"text": "[color=red]Maybe he has some potential after all.",
-&"type": "dialogue"
-},
-"49": {
-&"character": "Mr. Knickertwist",
-&"id": "49",
-&"next_id": "50",
-&"text": "[color=red]Alright, Stephen Hubert IV. I'll let you off with a warning this time.",
-&"type": "dialogue"
-},
 "5": {
 &"id": "5",
 &"next_id": "6",
 &"text": "Soon enough, Stephen finds himself in front of Mr. Knickertwist. The metal plate on his desk that reads the name is easier to make look at than the man who owns it.",
 &"type": "dialogue"
-},
-"50": {
-&"character": "Mr. Knickertwist",
-&"id": "50",
-&"next_id": "51",
-&"text": "[color=red]Maybe what this school needs is a daydreamer or two.",
-&"type": "dialogue"
-},
-"51": {
-&"id": "51",
-&"next_id": "52",
-&"text": "Good End.",
-&"type": "dialogue"
-},
-"52": {
-&"id": "52",
-&"is_snippet": false,
-&"next_id": "end",
-&"next_id_after": "",
-&"type": "goto"
-},
-"53": {
-&"id": "53",
-&"is_snippet": false,
-&"next_id": "end",
-&"next_id_after": "",
-&"type": "goto"
 },
 "6": {
 &"character": "Mr. Knickertwist",
@@ -389,22 +288,6 @@ Stephen: Avoiding all of my enemies...
 Stephen: But my daydreams are my greatest strength...
 Stephen: And I need to show him that.
 Mr. Knickertwist: [color=red]Stephen? Where are you going?
-Instead of this text box coming up, next version you will get two options; \"Run\" or \"Stay\"
-Because that's being added very early next sprint, just keep your option in your mind, okay?
-Okay.
-If you chose stay...
-Mr. Knickertwist: [color=red]Sit.
-Mr. Knickertwist: [color=red]Back.
-Mr. Knickertwist: [color=red]Down.
-Stephen sits back down on the other side of the scowling man's desk.
-Mr. Knickertwist: [color=red]Were you thinking of running? What would that have accomplished?
-Mr. Knickertwist: [color=red]Well, I guess you'll never know because your in school suspension starts NOW.
-The next 6 hours seemed like they lasted years.
-And the rest of the week was even worse.
-Stephen never fell asleep in class again, but never had a dream that was quite the same level of excitment as those adventures...
-Bad End.
-...
-If you chose run...
 Stephen rushes out of Mr. Knickertwist's office, nearly tripping over himself while shouldering the door open.
 Mr. Knickertwist: [color=red]STEPHEN? GET BACK HERE!
 But Stephen doesn't falter or slow his pace. He runs past the Science classroom...
@@ -418,6 +301,6 @@ Mr. Knickertwist: [color=red]Maybe I took Stephen for granted.
 Mr. Knickertwist: [color=red]Maybe he has some potential after all.
 Mr. Knickertwist: [color=red]Alright, Stephen Hubert IV. I'll let you off with a warning this time.
 Mr. Knickertwist: [color=red]Maybe what this school needs is a daydreamer or two.
-Good End.
+THE END
 => END"
 metadata/dialogue_manager_version = "3.7.1"

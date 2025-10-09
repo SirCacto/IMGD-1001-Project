@@ -12,4 +12,3 @@ AnimationTree
 AnimationPlayer
 StaticBody2D
 TextureRect
-ColorRect

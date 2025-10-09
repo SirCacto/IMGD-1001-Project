@@ -18,5 +18,7 @@ res://Scenes/Weapons/Bullets.tscn
 res://Scenes/Weapons/gun.tscn
 res://Scenes/Platforms/platform.tscn
 res://Scenes/Player/bullet.tscn
-res://Scenes/Player/space_player.gd
 res://Scenes/dialogue_screen.tscn
+res://Scenes/Levels/space_end.gd
+res://Scripts/kill_zone_space.gd
+res://Scripts/kill_zone.gd

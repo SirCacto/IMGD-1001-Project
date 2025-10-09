@@ -21,10 +21,11 @@ theme_override_styles/normal = SubResource("StyleBoxFlat_i4sal")
 text = "
               Version Notes:
 
-  v0.8
-  Added:
-Enemies
-Projectile (shift to shoot!)
-More Dialogue
-
-  More updates coming soon!  "
+  v1.0
+  Fixed:
+  Gun Placement
+  Projectile Collision
+  Background Textures
+  Player Jump (Coyote Time)    
+  More Dialogue
+"
